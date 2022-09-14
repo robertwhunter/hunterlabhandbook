@@ -1,0 +1,152 @@
+**Transformation of E. coli by electroporation**
+
+**Experimental design**
+
+*Include -- ve controls to exclude contamination; + ve control to
+measure transformation efficiency.*
+
+*Adjust DNA concentrations to appropriate target ranges. Expect
+transformation efficiency for subcloned plasmids to be two orders of
+magnitude less than for supercoiled circular plasmid DNA*[^1]*.*
+
+**-- ve controls** an aliquot of competent cells to which no DNA is
+added
+
+non-inoculated plate
+
+**+ ve control** an aliquot of competent cells with known amount of
+circular superhelical plasmid DNA[^2]
+
+**Electroporation**
+
+*Keep everything on ice @ all times*[^3]*.*
+
+*Have naked flame to sterilise glassware. Have waste pot with Vircon in
+it.*
+
+i\) pre-warm agar plates @ 37 ° × 30 -- 60 mins
+
+pre-warm SOC medium @ 37 °[^4][^5]
+
+ii\) select E. coli Electroporation Cuvettes (2 mm gap; blue top) and
+place on ice
+
+put 1.5 ml Eppendorfs on ice
+
+iii\) select electrocompetent E. coli from-- 80 ° freezer[^6][^7]
+
+thaw on ice × 10 mins
+
+iv\) dilute ligation mixture 1:5 in H~2~O[^8][^9]
+
+prepare plasmid dilution for + ve control
+
+v\) put 1 μl of DNA into 1.5 ml Eppendorf
+
+vi\) flick cells to resuspend
+
+add 40 μl of cells
+
+pipette up and down to mix
+
+dispense into cuvette
+
+tap cuvette on desk to ensure base is covered with liquid (or else risk
+arcing)
+
+vii\) transfer samples on ice bucket to bug room
+
+viii\) dry outside of cuvette
+
+load cradle of Easyject Plus[^10]
+
+ensure cradle lid closed
+
+ensure control box settings correct (usually c. 2300 V)[^11]
+
+ix\) press run
+
+wait for bleep then bleep--bleep--bleep[^12]
+
+x\) add 960 μl SOC medium, pipette to mix and transfer to 15 ml Falcon
+tube[^13][^14]
+
+xi\) incubate @ 37 ° × 200 rpm × 30 -- 60 mins (tops on tight)
+
+xii\) dilute or concentrate samples if required[^15]
+
+xiii\) dispense 100 μl onto pre-warmed agar plate
+
+spread round dish with sterile spreader aiming for even coverage
+
+keep at RT ° until all liquid is absorbed
+
+invert plates and incubate overnight @ 37 °
+
+[^1]: ideally DNA to be electroporated should be resuspended @ c. 1 --
+    10 ng μl ^--1^; for superhelical plasmids 10 -- 50 pg of DNA are
+    adequate (in 1 μl); for ligation mixtures generated when subcloning
+    into a plasmid, use up to 25 ng of DNA (in 1 μl)
+
+[^2]: this allows transformation efficiency to be standardised in terms
+    of cfu per μg DNA of a given plasmid
+
+[^3]: transformation is 100-fold more efficient @ 0 -- 4 ° compared to
+    RT °
+
+[^4]: use pre-prepared bottles of SOC medium (but recipe is also in
+    Sambrook & Russell)
+
+[^5]: some people believe that pre-warmed SOC medium delivers a
+    heat-shock stimulus that increases transformation efficiency
+
+[^6]: electrocompetent E. coli are grown to mid-log phase, chilled,
+    washed extensively in ice-cold water and suspended in 10% glycerol
+    (to prevent cell lysis by ice crystals)
+
+[^7]: stored in box @ back of Audrey's tray in -- 80 ° by NEB catalogue
+    \# (NEB C2989K is DH5α derivative, stock has been diluted 1:2 in
+    glycerol; use DH5α for small bits of DNA; DH10β for large
+    constructs)
+
+[^8]: ligation mix must be diluted firstly to reduce the contaminating
+    effects of salts, proteins and ligase (which reduce transformation
+    efficiency), secondly to avoid high ionic strength solutions (which
+    may pre-dispose to arcing) and thirdly to bring DNA concentrations
+    into the target range; therefore EITHER dilute ligation reaction
+    1:5, 1:10 or 1:20 in H~2~O OR purify DNA by or spun-column
+    chromatography or phenol:chloroform extraction and precipitation
+    with EtOH / ammonium acetate and then resuspend in TE (pH 8) or
+    H~2~O to the desired concentration
+
+[^9]: could consider heat-inactivating ligation reactions (@ 65 ° × 20
+    mins)
+
+[^10]: electroporation apparatus = power box (to generate charge),
+    cradle (to house cuvette) and control box
+
+[^11]: ideal settings are: 25 μF capacitance, 2.5 kV, 200Ω resistance
+    giving a time-constant of 4 -- 5 ms with field strength of 12.5 kVcm
+    ^--1^
+
+[^12]: the risk of arcing is increased by solutions with high ionic
+    strength, higher temperatures and air bubbles
+
+[^13]: this step should be performed relatively quickly; a one minute
+    delay can cause a 3-fold reduction in transformation efficiency
+
+[^14]: can put pipette tip back into cuvette instead of waste bucket
+
+[^15]: avoid plating the entire bacterial culture on a single plate as
+    the large numbers of dead bacteria will inhibit the growth rate of
+    transformants; therefore for superhelical plasmids (where abundant
+    transformants expected) either streak a sterile loop or dilute the
+    cells 1:10 and 1:100 into 1 ml SOC medium and plate 100 μl of each
+    onto separate plates (i.e. plate 1:100 and 1:1000 of total sample
+    respectively); for subcloned plasmids (where small numbers of
+    transformants expected) plate 100 -- 200 μl of undiluted total
+    sample per plate (i.e. 1:10 -- 1:5 of total sample respectively); if
+    very small numbers of transformants expected then the sample can be
+    concentrated by pelleting the cells (e.g. pulse to 13000 rpm for max
+    total 20 s), resuspending in 100 -- 200 μl supernatant and plating
+    this but do not overspin as this will rupture cells

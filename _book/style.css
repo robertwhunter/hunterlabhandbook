@@ -1,0 +1,125 @@
+p.caption {
+  color: #777;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
+
+
+/* MY STYLES */
+
+.note {
+  margin-top: 20px;
+  margin-bottom: 20px;
+/*  font-family: "Palatino linotype"; */
+/*  font-style: italic; */
+/*  color: teal; */
+/*  background-color: silver; */
+  color: silver;
+}
+
+.box_highlight {
+  background-color: hsl(60,100%,80%);
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-left: 12px solid orange;
+}
+
+.box_protocol {
+  background-color: hsl(120,60%,80%);
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-left: 12px solid green;
+}
+
+.box_g {
+  background-color: hsl(120,60%,80%);
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-left: 12px solid green;
+}
+
+.box_y {
+  background-color: hsl(60,100%,80%);
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-left: 12px solid orange;
+}
+
+.box_b {
+  background-color: hsl(190,60%,80%);
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-left: 12px solid dodgerblue;
+}
+
+
+/*
+ol {
+  list-style-type: lower-alpha;
+}
+*/
+
+/* use brackets and lower-case letters for ordered lists */
+ol {
+  counter-reset: list;
+  margin: 0;
+}
+
+ol > li {
+  list-style: none;
+  position: relative;
+}
+
+ol > li:before {
+  counter-increment: list;
+  content: counter(list, lower-alpha) ") ";
+  position: absolute;
+  left: -1.4em;
+}
+
+
+/* set spacing below first-order lines in lists */
+/*
+li:first-child {
+  margin-bottom: 1.2em;
+}
+*/

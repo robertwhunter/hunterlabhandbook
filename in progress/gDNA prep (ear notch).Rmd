@@ -1,0 +1,158 @@
+**Genomic DNA Preparation (from tail biopsy)**
+
+**Protocol**
+
+*Protocol is descended from that used to extract genomic DNA from mouse
+tails* [^1] *(Palmiter & Brinster, 1985).*
+
+*Tissue samples are stored @ -- 20 ° in 1.5 ml microfuge (Eppendorf)
+tube.*
+
+i\) label 1.5 ml microfuge tubes
+
+add 600 μl tail buffer [^2] + 18 μl Proteinase K (20 mg ml ^--1^)
+
+transfer tail tip (directly from freezer / dry ice) to appropriate tube
+[^3]
+
+snip into small chunks using sharp scissors [^4]
+
+incubate @ 55 ° overnight on rotating rack (until ear punch is
+dissolved)
+
+ii\) add 20 μl DNA-free RNAse (20 μg ml ^--1^) [^5]
+
+incubate @ 37 ° for 60'
+
+iii\) add 600 μl of phenol [^6] + 6 μl of 2-mercaptoethanol (in fume
+hood)
+
+place on vertical rotor (i.e. horizontal axis of rotation) for 15' [^7]
+
+iv\) spin @ max speed (13,000 rpm) × 3'
+
+transfer aqueous phase (+ any interphase) to a fresh microfuge tube (+
+discard organic phase) [^8]
+
+add 300 μl phenol + 300 μl chloroform : isoamyl alcohol 24:1 [^9]
+
+place on vertical rotor (i.e. horizontal axis of rotation) for 15'
+
+v\) spin @ max speed (13,000 rpm) × 3'
+
+transfer aqueous phase (+ any interphase) to a fresh microfuge tube (+
+discard organic phase)
+
+add 600 μl chloroform : isoamyl alcohol 24:1
+
+place on vertical rotor (i.e. horizontal axis of rotation) for 15'
+
+vi\) spin @ max speed (13,000 rpm) × 3'
+
+transfer aqueous phase (but NOT interphase) to fresh microfuge tube
+[^10]
+
+add 450 μl isopropanol [^11]
+
+invert tube several times until a stringy precipitate forms (you may
+also see bubbles)
+
+vii\) spin @ max speed (13,000 rpm) × 10' to pellet the DNA [^12]
+
+remove supernatant + discard [^13]
+
+wash with EtOH (70 %) [^14] -- take care not to accidentally discard the
+pellet at this stage
+
+spin @ max speed (13,000 rpm) × 3'
+
+remove any residual EtOH (should be a few μl only)
+
+air dry for 5 -- 10' @ RT °
+
+viii\) resuspend pellet in 100 μl TE (= Tris EDTA) [^15] (wash back of
+tube several times ± mix by gentle vortex)
+
+leave o/n @ 4 ° to resolubilise the pellet then incubate @ 50 -- 55 °
+for 10' then mix gently the next day [^16]
+
+store samples @ 4 ° (short-term) or -- 20 ° (long-term) [^17]
+
+[^1]: **Notes**
+
+    for ear punches, some people use 100 mcl tail buffer; alternative
+    tissues may be used in place of an ear / tail punch; spleen is a
+    good one; if mice are not fasted the night before cull, DNA
+    preparation from liver will contain large amounts of glycogen as a
+    white crystalline precipitate
+
+[^2]: tail buffer (50 ml): Tris-Cl; pH 8.0 50 mM = 2.5 ml of 1 M stock
+
+    EDTA; pH 8.0 100 mM = 10.0 ml of 0.5 M stock
+
+    NaCl 100 mM = 1.0 ml of 5 M stock
+
+    SDS 1 % = 2.5 ml of 20 % (v/v) stock
+
+    dH~2~O = 34 ml
+
+    *filter to sterilise and store @ RT °*
+
+[^3]: if the ear punch is allowed to thaw prior to the addition of tail
+    lysis buffer then enzymatic digestion of nucleic acid may occur
+
+[^4]: take extreme care not to cross-contaminate when processing
+    multiple samples -- rinse scissors with detergent, then aq, then 70
+    % EtOH, then flame, then cool and wipe with tissues
+
+[^5]: dilute RNAse A 10 mg ml^--1^ stock 1:500 in nuclease-free H~2~O --
+    can use a little more than this if desired (i.e. × 3 -- 4)
+
+[^6]: phenol has an aqueous layer on top of it in the bottle (to prevent
+    the phenol oxidising) -- so ensure phenol is drawn from the lower
+    pure phenol phase; ensure phenol is equilibrated to pH \~ 8.0 (this
+    is best for gDNA)
+
+[^7]: use 'sawn off' pipette tips to avoid shearing DNA at all stages
+    after stage iii)
+
+[^8]: at this stage the priority is to transfer ALL of the aqueous phase
+    (i.e. it doesn't matter if this includes a little phenol); in fact
+    there is a lot of DNA at the interface so try to include the
+    interface (along with any hairs etc.)
+
+[^9]: prepare 50 ml of stock (in fume cupboard) and store @ RT protected
+    from light; chloroform tends to drip when pipetted --
+    double-plunging when drawing it up may help (i.e. draw up, discard,
+    re-draw) although don't spend too long as chloroform melts plastic
+
+[^10]: at this stage the priority is to AVOID transferring any of the
+    organic phase, as chloroform may interfere with further steps /
+    PCR...
+
+[^11]: if too much isopropanol is used then the pellet will be too
+    gloopy and diffuse -- if this happens then rescue by adding more aq
+
+[^12]: set all the tubes with the hinge at the outside of the centrifuge
+    -- then you will know that the pellet is stuck to the wall of the
+    tube directly beneath the hinge
+
+[^13]: always save isopropanol / EtOH washes until the end of the
+    protocol -- in case DNA accidentally discarded
+
+[^14]: i.e. add c. 180 μl EtOH (70 %) and then set pipette to remove 200
+    μl EtOH (taking care not to suck up the pellet)
+
+[^15]: Tris EDTA (100 ml) Tris-Cl, pH 8.0 10 mM = 1 ml of 1 M stock
+
+    EDTA, pH 8.0 1 mM = 0.2 ml of 0.5 M stock
+
+    dH~2~O = 98.8 ml
+
+[^16]: the DNA should be homogenous before proceeding to further
+    analysis; it's best to spin briefly to pellet any un-resuspended
+    material and then draw a working sample from the supernatant
+
+[^17]: in the absence of contaminating nucleases (which should have been
+    removed by phenol extraction), DNA should be stable in TE @ 4 ° for
+    months -- years!

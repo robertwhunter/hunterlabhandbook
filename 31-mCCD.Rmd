@@ -1,0 +1,100 @@
+# mCCD culture protocols
+
+
+<!--
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+
+```
+--> 
+
+## Materials  
+
+- 500 ml DMEM/F-12 with L-glutamine or glutmax (e.g. Lonza 12-719F)  
+
+- FBS (Gibco 10500)  
+
+- tri-iodothyronine (Sigma T5516)  
+    - *make a 50 mcM stock: dissolve 1mg in 1ml 1M NaOH then add 29 ml DMEM/F-12 and F.S.*   
+    - *then dilute 1 ml in 49 ml DMEM/F-12 to give 1 mcM; store as 550 mcM aliquots*  
+<br>
+
+- dexamethasone (Sigma D8893)  
+    - *add 510 mcl 100% EtOH to 1 mg dexamethasone to make 5 mM stock*  
+<br>
+    
+- rhEGF (Sigma E9644)  
+    - *make a 100 mcg/ml stock: dissolve 200 mcg in 2ml H2O and freeze as 55 mcl aliquots*  
+<br>
+
+- ITS (Gibco 41400045)  
+
+- pen/strep (Gibco 15140122)  
+
+- trypsin-EDTA (Gibco 253000054)  
+
+<br>
+<br>
+
+## Methods
+
+### Growth medium
+
+To 500 ml DMEM/F12, add:  
+
+- 5 ml ITS \*\*  
+- 5 ml P/S \*\*  
+- 500 mcl T3 \*\*  
+- 5 mcl dexamethasone \*\*  
+- 10 ml FCS	(don’t filter)  
+- 50 mcl rhEGF (don’t filter)  
+
+\*\* = combine & F.S.
+
+Transfer 5 ml to T25 for a sterility test.  
+
+<br>
+
+```{r recipe, eval=FALSE, echo=FALSE, warning=FALSE, message=FALSE, show_col_types=FALSE}
+
+df_recipe <- read_csv("mCCD_growth.csv")
+df_recipe %>% knitr::kable()
+
+```
+
+<br>
+<br>
+
+### Thawing
+
+To thaw:  
+
+- transfer 10 ml medium to a centrifuge tube and incubate @ 37deg    
+- use 500 mcl aliquots of medium to thaw cells over 10 mins (i.e. squirt in 500 mcl, pipette up and down, transfer to 10 ml and repeat)  
+- spin to pellet cells (1000 rpm for 5 mins = 290 *g*??), remove supernatant and re-suspend in 1 ml    
+- add this to 9 ml in a T25    
+
+
+### Splitting
+
+To split:  
+
+- remove medium and discard  
+- wash x2 with PBS    
+- incubate with trypsin-EDTA (e.g. 1 ml for T75) @ 37deg for 10 - 15 mins until detatched    
+- inactivate with 10 vols medium (e.g. 10 ml for T75)  
+- spin to pellet cells, discard supernatant and top up to desired volume with medium  
+- split as desired (using haematocytometer to count cells if required)    
+
+
+### Freezing
+
+To freeze:  
+
+- trypsinise cells and spin down  
+- re-suspend in 10 % DMSO (filtered) in FCS and freeze as 1 ml aliquots in screw-top tubes    
+- transfer to – 80deg in 'Mr. Frosty' chamber immediately and leave for 24 hrs    
+- move to liquid nitrogen within a few days    
+
+

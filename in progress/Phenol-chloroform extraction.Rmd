@@ -1,0 +1,93 @@
+# Background
+
+See 'Maniatis' (Sambrook & Russel, Cold Spring Harbor Laboratory Press)
+& notes from Zumbo / Mason.
+
+## Extraction of DNA from tissues
+
+DNA is recovered from cells using the gentlest possible method (e.g.
+enzymatic digestion) to minimise DNA shearing. This is done in the
+presence of EDTA which chelates Mg^2+^ which is necessary for DNAse
+activity. A detergent is used to solubilise cell membranes. After
+nucleic acid has been released from cells, it is treated with RNAse that
+has been heat-treated to inactivate DNAse contaminants.
+
+## Phenol-chloroform extraction of nucleic acid
+
+Operates on the principle that "like dissolves like" so that non-polar
+proteins and carbohydrates dissolve in (non-polar) organic solvents and
+polar nucleic acids dissolve in aqueous solvents.
+
+This relies on:
+
+-   phenol: to denature protein and dissolve denatured proteins
+
+-   chloroform: to enhance the efficiency of denaturation, to enhance
+    yield of RNA (by reducing the amount of the aqueous phase retained
+    by phenol amongst other mechanisms) and to increase the density of
+    the organic phase, allowing better phase separation
+
+-   +/- isoamylalcohol to reduce foaming (e.g. chloroform:ISAA 24:1)
+
+The general method therefore is:
+
+-   use phenol-chloroform extraction to de-proteinise aqueous phase
+    until no material is seen at interface
+
+-   then use chloroform extraction to remove any residual phenol
+
+-   then concentrate nucleic acid by alcohol precipitation or on silica
+    spin column
+
+## Single-step isolation of RNA
+
+The pH of the phenol determines partitioning of DNA and RNA between the
+organic and aqueous phases:
+
+-   at neutral -- slightly alkaline (pH 7-8), phosphate groups are
+    negatively charged so that BOTH DNA & RNA partition in the aqueous
+    phase
+
+-   at acid (pH 4.8), most DNA moves into the organic phase (because DNA
+    has greater pKa than RNA so phosphate groups lose charge in DNA);
+    acid pH also inhibits RNA activity
+
+Therefore, RNA is extracted by combined guinidinium thiocyante with
+phenol-chloroform extraction under acidic conditions (Chomczynski &
+Sacchi, 2006).
+
+Chomczynski & Sacchi use water-saturated (NOT buffered) phenol.
+
+# Method
+
+When taking the aqueous phase from near the interface, pause with the
+pipette vertical to allow any contaminating organic phase to drop to the
+bottom of the pipette and then hold the pipette tip against the wall of
+the tube to allow this to leach out of the pipette. This is especially
+important during the final (chloroform only) step.
+
+Consider using phase-lock gel tubes.
+
+i\) place DNA sample into microfuge tube
+
+add 1.0 vol of phenol : chloroform
+
+mix thoroughly until an emulsion forms
+
+ii\) spin @ c. 17,000 *g* × 1 mins
+
+iii\) transfer aqueous phase to fresh tube (discarding the interface and
+organic phase)
+
+iv\) repeat steps i) -- iii) until no protein is visible at the
+interface between the aqueous and organic phases
+
+v\) add 1.0 vol of chloroform:isoamylalcohol (24:1)
+
+mix thoroughly until an emulsion forms
+
+spin @ c. 17,000 *g* × 1 mins
+
+transfer aqueous phase to fresh tube
+
+vi\) recover the DNA by alcohol precipitation

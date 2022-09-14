@@ -1,0 +1,209 @@
+**Gel Electrophoresis**
+
+*TAE has a lower buffering capacity (c.f. TBE or TPE) -- if buffer
+becomes exhausted then bromophenol blue will turn yellow (in acidic
+anodic portion of gel). Linear dsDNA migrates faster through TAE c.f.
+TBE (c. 10 %) -- therefore TAE is better for resolving high-MW gDNA, TBE
+is better for resolving low-MW DNAs. TAE is better for resolving
+supercoiled DNA.*
+
+*For good looking gels, run maxigels @ 40V × 24 hrs (do NOT exceed this
+voltage!)*
+
+**Agarose gel (1 %)**
+
+*This recipe is sufficient for a gel (and buffer) for a midi tray.*
+
+i\) make 1L of TAE (× 1)[^1]
+
+ii\) mix 1.2 g agarose with 60 ml TAE (× 1) in 500 ml screw-top bottle
+
+weigh bottle and note weight
+
+iii\) microwave (e.g. 1 min 50 s)
+
+check to see if agarose dissolved (use oven gloves)
+
+microwave again (e.g. 30 -- 60 s) and repeat prn until dissolved
+
+iv\) weigh bottle and top up to original weight with dH~2~O[^2]
+
+v\) add 60 ml TAE (× 1)[^3]
+
+vi\) add c. 5 μl of EtBr (stock solution = 10 mg ml^--1^)[^4]
+
+**Pour gel**
+
+i\) tape ends shut with masking tape
+
+add combs
+
+ensure tray is level on spirit level base
+
+ii\) pour in agarose mixture
+
+remove bubbles with pipette tip
+
+iii\) allow to set @ RT° × 30 -- 60 mins (or quicker @ 4°)
+
+iv\) wrap in cling-film and store @ 4° overnight if not for immediate
+use
+
+**Set up apparatus**
+
+i\) remove masking tape
+
+ensure correct orientation (DNA runs NEG to POS)
+
+ii\) pour in enough TAE (× 1) to cover gel and provide c. 4 mm layer on
+top
+
+carefully remove combs
+
+iii\) mix PCR products with loading dye[^5] (e.g. 2 μl dye for each 20
+μl of PCR product)
+
+this can be done with repeat pipette (and same tip) followed by short
+spin to 1000 rpm to mix
+
+iv\) load samples into gel avoiding bubbles (e.g. 18 μl in each lane)
+
+load ladder (e.g. 5 μl of GeneRuler)
+
+v\) switch on (e.g. 80 V × 300 mA × 60 mins)[^6]
+
+ensure electrodes are bubbling
+
+check periodically to see where dye-front is
+
+**Photograph gel**
+
+i\) chose Kodak programme
+
+ensure set up for correct gel size (e.g. 13 × 17 cm for midi gel) and
+exposure time (e.g. 3.5 s)
+
+ii\) lay gel on slab and cover borders with plastic mats
+
+place camera hood over gel
+
+iii\) switch on UV light
+
+take picture
+
+switch off UV light when shutter sounds[^7]
+
+iv\) process picture (invert and rotate)
+
+export to memory stick
+
+**Harvest DNA**
+
+i\) identify bands of interest on photograph above
+
+ii\) under direct visualisation in UV light, cut round bands with
+scalpel
+
+minimise total length of time exposed to UV light
+
+iii\) collect gel in Eppendorf tubes and note weight
+
+iv\) extract nucleic acid with appropriate kit
+
+**Supplementary information**
+
+*http://www.fermentas.com/techinfo/appendix/appendixtables1.htm*
+
+**Recommended gel percentages for separation of linear DNA**
+
+  ------------- ------------------- ------------------ ---------------------
+  **Agarose gel **Range of          **Polyacrylamide   **Range of separation
+  (%)**         separation (bp)**   gel (%)**          (bp)**
+
+  0.5           1,000-30,000        3.5                100-1,000
+
+  0.7           800-12,000          5.0                80-500
+
+  1.0           500-10,000          8.0                60-400
+
+  1.2           400-7,000           12.0               40-200
+
+  1.4           200-4,000           20.0               5-100
+
+  2.0           50-2,000                               
+  ------------- ------------------- ------------------ ---------------------
+
+**Migration rates of the marker dyes through polyacrylamide and agarose
+gels**
+
+*The approximate sizes of DNA fragments with which the indicated marker
+dye comigrates.*
+
+  ----------------------- ----------------------- -----------------------
+  **Polyacrylamide gel    **Bromophenol blue**    **Xylene cyanol FF**
+  (%)**                                           
+
+                                                  
+
+  **Non-denaturing gels**                         
+
+  3.5                     100 bp                  460 bp
+
+  5.0                     65 bp                   260 bp
+
+  8.0                     45 bp                   160 bp
+
+  12.0                    20 bp                   70 bp
+
+  15.0                    15 bp                   60 bp
+
+  20.0                    12 bp                   45 bp
+
+                                                  
+
+  **Denaturing gels**                             
+
+  5.0                     35 bases                130 bases
+
+  6.0                     29 bases                106 bases
+
+  8.0                     26 bases                76 bases
+
+  10.0                    12 bases                55 bases
+
+  20.0                    8 bases                 28 bases
+  ----------------------- ----------------------- -----------------------
+
+  ------------------- ------------------- ------------------- ------------
+  **Agarose           **Bromophenol       **Xylene cyanol     **Orange G**
+  concentration (%)** blue**              FF**                
+
+  0.7-1.7             \~300bp             \~4000bp            \~50bp
+
+  2.5-3.0             \~100bp             \~800bp             \~30bp
+  ------------------- ------------------- ------------------- ------------
+
+**GeneRuler DNA Ladder: 2-log ladder:**
+
+![](media/image1.png){width="1.136111111111111in"
+height="2.875in"}![](media/image2.jpeg){width="1.4631944444444445in"
+height="2.875in"}
+
+[^1]: use the same batch of TAE (× 1) for the gel and the buffer (or
+    else will get blurred bands)
+
+[^2]: this step replaces water lost through evaporation during
+    microwaving; alternatively zero balance when first weighed and then
+    top back up to zero
+
+[^3]: this step helps the mixture to cool
+
+[^4]: this should *just* tint the mixture but no more
+
+[^5]: usually bromophenol blue / xylene cyanol but may be another dye if
+    PCR product is very small
+
+[^6]: when programming the power pack you do not have to enter a time so
+    long as you will be able to check on it regularly
+
+[^7]: minimise time of expose to UV light as this will bleach EtBr

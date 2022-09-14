@@ -1,0 +1,16 @@
+--- 
+title: "Hunter Lab Handbook"
+author: "Robert W Hunter"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib]
+# url: your book url like https://bookdown.org/yihui/bookdown
+description: |
+  Protocols for use in the Hunter lab.  
+#github-repo: rstudio/bookdown-demo
+---
+
+# Preface {-}
+
+This is a work in progress. 

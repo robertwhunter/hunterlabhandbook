@@ -1,0 +1,118 @@
+Protocol adapted from various sources (Freshney, 2011 p.267; Musah et
+al., 2018).
+
+# Materials
+
+-   PBS = Dulbecco's PBS without Mg^2+^ or Ca^2+^
+
+-   16% PFA (Thermo 28906)
+
+```{=html}
+<!-- -->
+```
+-   *dilute 1 ml into 3 ml PBS to make 4% PFA*
+
+```{=html}
+<!-- -->
+```
+-   ProLong^TM^ Gold Antifade Mountant with DAPI (P36931)
+
+-   permeabilization buffer, PB
+
+```{=html}
+<!-- -->
+```
+-   *= 0.125% (v/v) Triton X-100 in PBS (make in bulk and store @ RT for
+    1/12)*
+
+```{=html}
+<!-- -->
+```
+-   blocking buffer
+
+```{=html}
+<!-- -->
+```
+-   *= 2% (w/v) BSA in PB*
+
+-   *alternatively block with 10% normal serum (use sp. in which
+    secondary Ab is raised)*
+
+# Fixing protocol
+
+i)  grow on 12 mm glass coverslips in 24-well plate
+
+ii) fix cells
+
+-   *wash with PBS*
+
+-   *fix cells in 4% PFA for 30 mins at RT (180 mcl per well of 24-well
+    plate)*
+
+-   *rinse with PBS × 3*
+
+iii) store at 4deg in PBS for up to 2/52 (parafilm around lid)
+
+# Staining protocol
+
+All steps carried out using 250 mcl of liquid reagent in a well of a
+24-well plate.
+
+i)  permeabilise
+
+-   *incubate in PB @ RT for 5'*
+
+ii) block
+
+-   *block in blocking buffer @ RT for 30'*
+
+-   *wash with PB (5' × 1)*
+
+iii) primary Ab
+
+-   *incubate with primary Ab in PB @ 4deg overnight (or RT for 60')*
+
+iv) secondary Ab
+
+-   *wash (5' × 3) with PB*
+
+-   *incubate with secondary Ab for 1 hr in PB in the dark*
+
+-   *wash (5' × 3) with PBS in the dark*
+
+v)  mount
+
+-   *life up coverslip and wash with dH2O*
+
+-   *apply small drop of ProLong Gold Mountant with DAPI to microscope
+    slide*
+
+-   *mount cell-side down*
+
+-   *leave to harden @ RT in the dark overnight*
+
+vi) store slides @ 4deg
+
+# Imaging
+
+-   wipe residual mountant off with tissue and window-cleaner
+
+-   quick view on Axioskop
+
+-   scan slides on Zeiss Axioscan.Z1 slide-scanner
+
+-   import image files from
+    [\\\\cmvm.datastore.ed.ac.uk\\cmvm\\scs\\groups\\Axioscan_Slide_Scanner-Tempstore](file://cmvm.datastore.ed.ac.uk/cmvm/scs/groups/Axioscan_Slide_Scanner-Tempstore)
+
+-   view files using QuPath (click Image \> Image List to see different
+    ROIs from same slide)
+
+# References
+
+Freshney I (2011). *Culture of Animal Cells: A Manual of Basic Technique
+and Specialized Applications*, 6th edn. John Wiley & Sons, Inc.
+
+Musah S, Dimitrakakis N, Camacho DM, Church GM & Ingber DE (2018).
+Directed differentiation of human induced pluripotent stem cells into
+mature kidney podocytes and establishment of a Glomerulus Chip. *Nat
+Protoc* **13,** 1662--1685.

@@ -1,0 +1,85 @@
+**Protein extraction from cells**
+
+*This protocol describes how to lyse cells from a cell pellet from a T75
+flask. The alternative is to lyse directly on 100 mm plates.*
+
+*Put PBS and RIPA buffer (with protease inhibitors) on ice.*
+
+i\) detach cells from T75 flask using standard protocol (EDTA washes × 2
+followed by trypsinisation)
+
+ii\) spin in tissue culture centrifuge to loosely pellet cells
+
+aspirate supernatant and discard
+
+resuspend pellet in 1.5 ml PBS and transfer to 2 ml eppendorf
+
+iii\) spin @ 5500 rpm × 5'
+
+remove supernatant and discard
+
+iv\) wash pellet with 1 ml ice-cold PBS
+
+spin @ 5500 rpm × 5'
+
+remove supernatant and discard
+
+v\) repeat step iv)
+
+vi\) add 1 ml RIPA buffer with protease inhibitors
+
+pipette until cells completely resuspended
+
+pass repeatedly (c. × 5) through a 21G (green) needle
+
+vii\) incubate on ice × 15' on rocking platform
+
+viii\) spin @ 13000 rpm × 15' @ 4°
+
+collect supernatant and store in aliquots (e.g. 100 mcl) @ - 20 °
+
+(discard pellet)
+
+ix\) measure protein concentration (e.g. with BCA protein assay reagent
+kit -- in duplicate)
+
+adjust to desired concentration prior to SDS-PAGE / Western blot
+
+*ALTERNATIVE PROTOCOL -- LYSE DIRECTLY ON PLATE*
+
+i\) remove medium from cells growing on one 100 mm dish (c. 7.5 × 10 ^6^
+cells)
+
+wash twice with cold PBS
+
+ii\) add 1.5 ml cold RIPA buffer containing protease inhibitor cocktail
+
+incubate on ice × 5', swirling occasionally
+
+iii\) gather lysate to one side using a cell scraper
+
+collect lysate and transfer to a microcentrifuge tube
+
+iv\) spin @ 13 000 g × 15' to pellet cell debris
+
+(optional to increase yield -- sonicate pellet for 30 s with a 50 %
+pulse)
+
+v\) transfer supernatant to a fresh tube for further analysis
+
+store in 50 mcl aliquots @ - 80 °
+
+**RIPA buffer** NaCl (5 M) 900 mcl
+
+NP-40 300 mcl
+
+sodium deoxycholate 300 mg
+
+Tris-HCl (1M, pH 7.6) 750 mcl
+
+SDS (10 %) 300 mcl
+
+ddH~2~O adjust to 30 ml
+
+*store at 4 °; add 1 complete mini protease-inhibitor cocktail tablet
+(Roche) per 10 ml prior to use*

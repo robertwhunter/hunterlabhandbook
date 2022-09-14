@@ -1,0 +1,55 @@
+**Protein extraction from tissues**
+
+Method derived from that used by Knepper (Na *et al.*, 2003) and from
+Matt's lab-book / Ali's thesis.
+
+**Solutions**
+
+*PMSF (phenylmethylsulfonyl fluoride) is stable in isopropanol and can
+be stored for months at 4 °C. It is unstable in H~2~O (t ~1/2~ = 30 --
+60 mins) -- therefore add PMSF / protease inhibitors fresh each time.*
+
+Make up PMSF stock (2 mg ml ^--\ 1^):
+
+PMSF 50 mg
+
+in isopropanol 25 ml
+
+Make up protein isolation solution as follows:
+
+250 mM sucrose = 4.28 g
+
+10 mM triethanolamine = 66.7 mcl of 99 % stock (c. 7.54 M)
+
+0.1 mg ml ^--\ 1^ PMSF = 2.5 ml of 2 mg ml ^--\ 1^ stock
+
+in dH~2~O 45 ml
+
+pH to 7.6
+
+top up to 50 ml
+
+to each 10 ml aliquot, add one protease inhibitor tablet (Roche)
+
+**Procedure**
+
+i\) place tissue to be homogenised (e.g. ½ liver or ½ kidney) in 2 ml
+eppendorf (and thaw on ice)
+
+add c. 1.5 ml ice-cold isolation solution
+
+ii\) homogenise in mixer-mill (90s @ top speed)
+
+(can spin briefly @ 2 × 10 ^3^ rpm to confirm successful homogenisation)
+
+iii\) leave on ice for 15'
+
+iv\) determine protein concentration in 1:10 dilution in aq (isopropanol
+interferes with assay) using BCA assay
+
+read absorbance @ 562 nm
+
+Na KY, Oh YK, Han JS, Joo KW, Lee JS, Earm JH, Knepper MA & Kim GH.
+(2003). Upregulation of Na+ transporter abundances in response to
+chronic thiazide or loop diuretic treatment in rats. *Am J Physiol Renal
+Physiol* **284,** F133-143.

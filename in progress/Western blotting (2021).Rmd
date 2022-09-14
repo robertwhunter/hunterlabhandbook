@@ -1,0 +1,87 @@
+**Western blotting**
+
+**2021**
+
+*Beforehand*: prepare protein samples ready for loading at store @ -80
+deg
+
+*Day 1:* PAGE and transfer; incubate with 1ry Ab overnight
+
+*Day 2:* incubate with 2ry Ab and develop
+
+**Samples:** set up to load up to 40 mcl per lane (and ideally c. 20
+mcl)
+
+*e.g. sample 16*
+
+*2x tris-glycine SDS sample buffer 20*
+
+*500 mM DTT [4]{.underline} (= final 50 mM)*
+
+*TOTAL 40 mcl*
+
+heat samples to 70 ° × 15'
+
+(do NOT heat ladder)
+
+**SDS-PAGE:** use Novex ^TM^ WedgeWell 4 -- 12% Tris-glycine gels (15
+lane)
+
+rinse with dH~2~O
+
+make up 1L buffer for 2 chambers (= 100 ml 10x Tris-glycine running
+buffer up to 1L with dH~2~O)
+
+set up as per quick reference card
+
+run @ 225 V × \~30 - 45'
+
+**Transfer:** make up 500 ml transfer buffer for 1 gel
+
+*Tris-glycine transfer buffer (25 ×) 20 ml*
+
+*methanol 100 ml (i.e. 20 %)*
+
+*dH~2~O to 500 ml*
+
+soak pads in transfer buffer (and squeeze out bubbles)
+
+pre-wet PVDF membrane in methanol for 30'' then rinse in dH~2~O and soak
+in TB for a few mins
+
+do NOT equilibrate gel in transfer buffer
+
+pre-wet filter paper (thin paper supplied with PVDF)
+
+assemble as per quick reference card but remember....
+
+*wet cathode with 10 ml TB first*
+
+*smooth with roller after each step (apply a few ml TB to wet gel or
+membrane before rolling)*
+
+transfer on Mini Blot wet transfer module @ 20 V × 60' (for PVDF)
+
+after transfer wash membrane in 20 ml milli-Q-H~2~0 for 5' x 2
+
+**Blot:** *wash = 0.2% TWEEN in PBS = 2 ml in 1L*
+
+*block = 5% (w/v) milk powder = 2g in 40 ml*
+
+block for 40 mins @ RT then 1ry Ab overnight @ 4deg
+
+wash x 5 mins x3 then 2ry Ab for 60 mins @ RT
+
+wash x 10 mins x3 then develop with ECL reagent
+
+image on LICOR Odyssey Fc
+
+re-use 1ry Ab by salvaging into 0.05 % NaN~3~ (i.e. add 250 mcl of 1 %
+NaN~3~ to 5 ml)...
+
+...store in same container used for incubation (i.e. 50 ml falcon) @ 4 °
+
+do NOT re-use 2ry Ab (NaN~3~ quenches HRP activity)
+
+Can apparently post-stain with Instant Blue (Expedion) -- few mins to
+stain then few mins to destain in 50% MeOH and image in IR channel.
