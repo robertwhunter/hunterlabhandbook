@@ -1,4 +1,6 @@
 introduction
+general-lab-solutions
+agar-plates
 mccd-culture-protocols
 materials
 methods

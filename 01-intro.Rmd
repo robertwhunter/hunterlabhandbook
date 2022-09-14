@@ -1,3 +1,5 @@
 # Introduction
 
-Here are protocols for the Hunter lab.  
+In this manual, we will post protocols for the Hunter lab.  
+
+This is a work in progress; should be up and runnning by early 2023.  

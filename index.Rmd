@@ -5,7 +5,7 @@ date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
-# url: your book url like https://bookdown.org/yihui/bookdown
+url: https://hunterlabhandbook.netlify.app
 description: |
   Protocols for use in the Hunter lab.  
 #github-repo: rstudio/bookdown-demo
