@@ -1,13 +1,10 @@
 # mCCD culture protocols
 
-
-<!--
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 
 ```
---> 
 
 ## Materials  
 
@@ -56,7 +53,7 @@ Transfer 5 ml to T25 for a sterility test.
 
 <br>
 
-```{r recipe, eval=FALSE, echo=FALSE, warning=FALSE, message=FALSE, show_col_types=FALSE}
+```{r recipe, eval=TRUE, echo=FALSE, warning=FALSE, message=FALSE, show_col_types=FALSE}
 
 df_recipe <- read_csv("mCCD_growth.csv")
 df_recipe %>% knitr::kable()
