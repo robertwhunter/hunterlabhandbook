@@ -1,5 +1,7 @@
 introduction
 general-lab-solutions
+general-points
+recipes
 agar-plates
 mccd-culture-protocols
 materials

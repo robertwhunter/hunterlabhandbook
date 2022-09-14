@@ -1,17 +1,16 @@
 # General lab solutions
 
-**General points**
+## General points
 
-Use autoclaved dH~2~O or Millipore H~2~O.  
-
-Always add acid to aqueous.
-
-Magnetic stirrers are stored in EtOH so rinse with dH~2~O.  
-
-Abbreviation for 1 mg ml ^--1^ is λ.  
+- use autoclaved dH~2~O or Millipore H~2~O    
+- always add acid to aqueous  
+- magnetic stirrers are stored in EtOH so rinse with dH~2~O    
+- abbreviation for 1 mg ml ^--1^ is λ    
 
 Refer to Molecular Cloning: a laboratory manual, Sambrook & Russell (2001).
 
+
+## Recipes  
 
 +-------------------------+--------------------------------------------+
 | **Solutions**           |                                            |
@@ -87,14 +86,12 @@ Refer to Molecular Cloning: a laboratory manual, Sambrook & Russell (2001).
 |                         | suspension even after vortex, sonification |
 |                         | and incubation @ 37°*                      |
 +-------------------------+--------------------------------------------+
-
-+-------------------------+--------------------------------------------+
 | **NaCl (5 M)**          | 146.1 g in 400 ml dH~2~O                   |
 |                         |                                            |
 |                         | mix and adjust to final volume of 500 ml   |
 |                         |                                            |
 |                         | *autoclave*                                |
-+=========================+============================================+
++-------------------------+--------------------------------------------+
 | **PBS (Dulbecco 'A',    | 10 tablets per 1L then autoclave           |
 | Oxoid)**                |                                            |
 |                         | *or* make up 10 × stock (50 tablets in 500 |
