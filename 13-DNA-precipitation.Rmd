@@ -1,0 +1,138 @@
+# Precipitation of nucleic acid
+
+## Background
+
+```{block2, type='note'}
+
+See 'Maniatis' (Sambrook & Russel, Cold Spring Harbor Laboratory Press) & notes from Zumbo / Mason.
+
+The method relies on:
+
+i)  an alcohol to deplete the hydration shell from nucleic acids;  
+ii) a salt supplying monovalent cations to neutralise negatively-charged phosphate groups on the nucleic acid backbone;  
+iii) +/- an inert carrier to act as a co-precipitant.  
+
+The choice of reagent for each of these three steps will influence the results.
+
+
+**Alcohol**: 
+
+-   ethanol *(C~2~H~6~O)*: *more volatile (i.e. quicker air-drying)*  *more polar (i.e. fewer salts co-precipitated c.f. isopropanol)*
+-   isopropanol *(C~3~H~8~)*: *more efficient (therefore use half volume c.f. EtOH)*
+
+  
+**Salt**:
+
+-   sodium acetate *(CH~3~COONa)*: *used for most routine applications*
+-   NaCl: *use if samples contain SDS*
+-   ammonium acetate: *reduces co-precipitation of dNTPs / oligos*
+-   LiCl: *high purity of RNA but loss of small RNAs; exploited to purify large RNAs*
+
+  
+**Carrier**:
+
+-   glycogen *can carry small RNAs (\> 8 nt)*
+-   linear polyacrylamide *does NOT carry small RNAs (\<= 20 nt)*
+-   yeast tRNA *may inhibit down-stream reactions*
+-   salmon sperm DNA
+
+Other variables such as temperature, the inclusion of Mg salts and the starting concentration of nucleic acid may also influence the result.
+
+
+**Temperature**
+
+Historically, EtOH precipitation was carried out at very low temperatures (e.g. in dry ice / EtOH bath), but this is not strictly
+necessary and precipitation will occur @ 0 °. Indeed, there are theoretical reasons why precipitation efficiency should diminish as temperature falls (increased dielectic constrant of the alcohol-aqueous solution, reduced movement of nucleic acids, reduced solubility and therefore increased co-precipitation of contaminating salts).
+
+
+**Magnesium**
+
+Mg^2+^ ions stabilise RNA-RNA interactions. The inclusion of MgCl (final concentration 10 mM) increased recovery of miRNA from cell lysates --
+although this was added during RNA extraction protocol (e.g. QIAzol) rather than during EtOH precipitation (Kim *et al.*, 2012).
+
+
+**Abundance of nucleic acid**
+
+Recover of miRNA was lower when the starting abundance of total RNA was low, suggesting that small RNAs might depend on larger RNAs as carriers (Kim *et al.*, 2012).
+
+```
+
+## Materials
+
+Use DEPC aq.
+
+-   1M MgCl2  
+-   3M sodium acetate, pH 5.2  
+-   100% EtOH  
+-   70% EtOH  
+-   glycogen 20 mg/ml (Thermo R0551)  
+-   resuspension buffer (2 mM DTT; 1 mcl per 20 mcl RNaseOUT ^TM^ in DEPC aq)  
+-  *RNaseOUT^TM^: add 1 mcl per 20 mcl RNA solution (= 40 units); requires 1 mM DTT to retain activity*
+
+
+## Method: alcohol precipitation suitable for small RNAs
+
+```{block2, type='note'}
+
+The following protocol should be suitable for total RNA, preserving small RNAs. Include MgCl~2~ and glycogen steps if working with RNA of low-abundance or small RNAs \< 100 nt (Sambrook & Russel, Cold Spring Harbor Laboratory Press; Clerget et al., 2015). Prefer EtOH to
+isopropanol for RNAs \< 200 nt (Thermo Glycogen product manual).
+
+```
+
+Take standard precautions against RNAse.
+
+i\)  adjust total volume to \>= 100 mcl  
+
+  - *and the rest of this protocol written for volume = 100 mcl; multiply up if required*  
+
+<br>
+ii\) add 11.5 mcl (0.1 vols) 3M sodium acetate, pH 5.2 *(i.e. final concentration = 300 mM)*  
+
+  - *mix gently but well (by inversion or pipetting); avoid vortexing as this can shear large nucleic acid molecules*  
+
+<br>
+iii\) +/- add 1.15 mcl (0.01 vols) 1M MgCl~2~ *(i.e. final concentration = 10 mM)*  
+
+iv\) +/- add 2.88 mcl glycogen (= 58 mcg) *(i.e. final concentration = 0.5 mcg / mcl)*  
+
+v\)  add 290 mcl (2.5 vols) ice-cold 100 % EtOH  
+
+  - *alternative is 1 vol isopropanol*  
+  - *mix gently but well*  
+
+<br>
+vi\) incubate on ice for 60 mins to allow DNA precipitate to form  
+
+vii\) spin @ 12,000 *g* × 30 mins @ 4 °  
+
+viii\) wash with 70% EtOH  
+
+  - *carefully remove supernatant*  
+  - *add 750 mcl 70 % EtOH and vortex to wash pellet*  
+  - *spin @ 12,000 g × 15 mins @ 4 °*  
+  - *some people repeat this wash at room temperature to dissolve any co-precipitated salts (Zumbo)*  
+
+<br>
+ix\) air-dry  
+
+  - *carefully remove supernatant*  
+  - *air-dry on bench @ RT ° until all EtOH has evaporated (c. 5 -- 10 mins)*  
+  - *do not over-dry as this can make solubilisation tricky*  
+
+<br>
+x\)  resuspend in water  
+
+  - *dissolve the DNA pellet in aq or resuspension buffer (e.g. 20 mcl so final glycogen c. 3 mcg / mcl)*  
+  - *glycogen \< 8 mcg/mcl doesn't interfere with downstream applications*  
+  - *rinse wall of tubes well (push bead of fluid back and forth over the back wall of the tube)*  
+  - *leave to re-suspend × 15 mins @ RT°*  
+  - *+/- open tube and incubate @ 45 ° for 2 -- 3 mins to evaporate any last traces of EtOH*  
+
+
+## References
+
+[Clerget  et. al. (2015)](http://link.springer.com/10.1007/978-1-4939-2547-6_8).  
+
+Kim Y-K, Yeo J, Kim B, Ha M & Kim VN (2012). Short structured RNAs with low GC content are selectively lost during extraction from a small number of cells. *Mol Cell* **46,** 893--895.  
+
+Sambrook J & Russel D (Cold Spring Harbor Laboratory Press). *Molecular Cloning: A Laboratory Manual*, 3rd edn.  

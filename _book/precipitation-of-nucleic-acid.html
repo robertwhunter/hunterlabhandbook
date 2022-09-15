@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Protocol 6 Agar plates | Hunter Lab Handbook</title>
+  <title>Protocol 3 Precipitation of nucleic acid | Hunter Lab Handbook</title>
   <meta name="description" content="Protocols for use in the Hunter lab." />
   <meta name="generator" content="bookdown 0.29 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Protocol 6 Agar plates | Hunter Lab Handbook" />
+  <meta property="og:title" content="Protocol 3 Precipitation of nucleic acid | Hunter Lab Handbook" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="Protocols for use in the Hunter lab." />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Protocol 6 Agar plates | Hunter Lab Handbook" />
+  <meta name="twitter:title" content="Protocol 3 Precipitation of nucleic acid | Hunter Lab Handbook" />
   
   <meta name="twitter:description" content="Protocols for use in the Hunter lab." />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="rna-extraction.html"/>
-<link rel="next" href="preparation-of-plasmid-dna-from-e.html"/>
+<link rel="prev" href="gel-electrophoresis.html"/>
+<link rel="next" href="working-with-rna.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -153,45 +153,148 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="agar-plates" class="section level1 hasAnchor" number="6">
-<h1><span class="header-section-number">Protocol 6</span> Agar plates<a href="agar-plates.html#agar-plates" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p><strong>Pour plates</strong></p>
-<p><em>Have naked flame to sterilise glassware.</em></p>
-<p><em>This recipe is for 250 ml agar (enough for c. 6 plates).</em></p>
-<p><em>Make plates at least 24 hrs before they are required.</em></p>
-<p>i) set water bath to 60 °</p>
-<p>ii) heat 250 ml LB-agar (microwave power level 4 × 10 mins)<a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a><a href="#fn7" class="footnote-ref" id="fnref7"><sup>7</sup></a></p>
-<p>iii) cool in 60 ° water bath until hand-hot</p>
-<p>iv) add antibiotics (@ same concentrations used in liquid culture)</p>
-<ul>
-<li>ampicillin 100 μg ml <sup>–1</sup> (= 250 μl of 100 mg ml <sup>–1</sup> stock to 250 ml agar)<br />
+<div id="precipitation-of-nucleic-acid" class="section level1 hasAnchor" number="3">
+<h1><span class="header-section-number">Protocol 3</span> Precipitation of nucleic acid<a href="precipitation-of-nucleic-acid.html#precipitation-of-nucleic-acid" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="background" class="section level2 hasAnchor" number="3.1">
+<h2><span class="header-section-number">3.1</span> Background<a href="precipitation-of-nucleic-acid.html#background" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+
+<div class="note">
+<p>See ‘Maniatis’ (Sambrook &amp; Russel, Cold Spring Harbor Laboratory Press) &amp; notes from Zumbo / Mason.</p>
+<p>The method relies on:</p>
+<ol style="list-style-type: lower-roman">
+<li>an alcohol to deplete the hydration shell from nucleic acids;<br />
 </li>
-<li>kanamicin 12.5 μg ml <sup>–1</sup> (= 62.5 μl of 50 mg ml <sup>–1</sup> stock to 250 ml agar)</li>
-</ul>
-<p><br>
-v) pour plates in stacks of 3</p>
+<li>a salt supplying monovalent cations to neutralise negatively-charged phosphate groups on the nucleic acid backbone;<br />
+</li>
+<li>+/- an inert carrier to act as a co-precipitant.</li>
+</ol>
+<p>The choice of reagent for each of these three steps will influence the results.</p>
+<p><strong>Alcohol</strong>:</p>
 <ul>
-<li>flame away bubbles</li>
+<li>ethanol <em>(C<sub>2</sub>H<sub>6</sub>O)</em>: <em>more volatile (i.e. quicker air-drying)</em> <em>more polar (i.e. fewer salts co-precipitated c.f. isopropanol)</em></li>
+<li>isopropanol <em>(C<sub>3</sub>H<sub>8</sub>)</em>: <em>more efficient (therefore use half volume c.f. EtOH)</em></li>
+</ul>
+<p><strong>Salt</strong>:</p>
+<ul>
+<li>sodium acetate <em>(CH<sub>3</sub>COONa)</em>: <em>used for most routine applications</em></li>
+<li>NaCl: <em>use if samples contain SDS</em></li>
+<li>ammonium acetate: <em>reduces co-precipitation of dNTPs / oligos</em></li>
+<li>LiCl: <em>high purity of RNA but loss of small RNAs; exploited to purify large RNAs</em></li>
+</ul>
+<p><strong>Carrier</strong>:</p>
+<ul>
+<li>glycogen <em>can carry small RNAs (&gt; 8 nt)</em></li>
+<li>linear polyacrylamide <em>does NOT carry small RNAs (&lt;= 20 nt)</em></li>
+<li>yeast tRNA <em>may inhibit down-stream reactions</em></li>
+<li>salmon sperm DNA</li>
+</ul>
+<p>Other variables such as temperature, the inclusion of Mg salts and the starting concentration of nucleic acid may also influence the result.</p>
+<p><strong>Temperature</strong></p>
+<p>Historically, EtOH precipitation was carried out at very low temperatures (e.g. in dry ice / EtOH bath), but this is not strictly
+necessary and precipitation will occur @ 0 °. Indeed, there are theoretical reasons why precipitation efficiency should diminish as temperature falls (increased dielectic constrant of the alcohol-aqueous solution, reduced movement of nucleic acids, reduced solubility and therefore increased co-precipitation of contaminating salts).</p>
+<p><strong>Magnesium</strong></p>
+<p>Mg<sup>2+</sup> ions stabilise RNA-RNA interactions. The inclusion of MgCl (final concentration 10 mM) increased recovery of miRNA from cell lysates –
+although this was added during RNA extraction protocol (e.g. QIAzol) rather than during EtOH precipitation (Kim <em>et al.</em>, 2012).</p>
+<p><strong>Abundance of nucleic acid</strong></p>
+<p>Recover of miRNA was lower when the starting abundance of total RNA was low, suggesting that small RNAs might depend on larger RNAs as carriers (Kim <em>et al.</em>, 2012).</p>
+</div>
+</div>
+<div id="materials" class="section level2 hasAnchor" number="3.2">
+<h2><span class="header-section-number">3.2</span> Materials<a href="precipitation-of-nucleic-acid.html#materials" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Use DEPC aq.</p>
+<ul>
+<li>1M MgCl2<br />
+</li>
+<li>3M sodium acetate, pH 5.2<br />
+</li>
+<li>100% EtOH<br />
+</li>
+<li>70% EtOH<br />
+</li>
+<li>glycogen 20 mg/ml (Thermo R0551)<br />
+</li>
+<li>resuspension buffer (2 mM DTT; 1 mcl per 20 mcl RNaseOUT <sup>TM</sup> in DEPC aq)<br />
+</li>
+<li><em>RNaseOUT<sup>TM</sup>: add 1 mcl per 20 mcl RNA solution (= 40 units); requires 1 mM DTT to retain activity</em></li>
+</ul>
+</div>
+<div id="method-alcohol-precipitation-suitable-for-small-rnas" class="section level2 hasAnchor" number="3.3">
+<h2><span class="header-section-number">3.3</span> Method: alcohol precipitation suitable for small RNAs<a href="precipitation-of-nucleic-acid.html#method-alcohol-precipitation-suitable-for-small-rnas" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+
+<div class="note">
+<p>The following protocol should be suitable for total RNA, preserving small RNAs. Include MgCl<sub>2</sub> and glycogen steps if working with RNA of low-abundance or small RNAs &lt; 100 nt (Sambrook &amp; Russel, Cold Spring Harbor Laboratory Press; Clerget et al., 2015). Prefer EtOH to
+isopropanol for RNAs &lt; 200 nt (Thermo Glycogen product manual).</p>
+</div>
+<p>Take standard precautions against RNAse.</p>
+<p>i) adjust total volume to &gt;= 100 mcl</p>
+<ul>
+<li><em>and the rest of this protocol written for volume = 100 mcl; multiply up if required</em></li>
 </ul>
 <p><br>
-vi) store inverted @ 4 °</p>
-<p>vii) remove from fridge c. 60 mins before use and dry @ 37 ° with lids slightly off</p>
+ii) add 11.5 mcl (0.1 vols) 3M sodium acetate, pH 5.2 <em>(i.e. final concentration = 300 mM)</em></p>
+<ul>
+<li><em>mix gently but well (by inversion or pipetting); avoid vortexing as this can shear large nucleic acid molecules</em></li>
+</ul>
+<p><br>
+iii) +/- add 1.15 mcl (0.01 vols) 1M MgCl<sub>2</sub> <em>(i.e. final concentration = 10 mM)</em></p>
+<p>iv) +/- add 2.88 mcl glycogen (= 58 mcg) <em>(i.e. final concentration = 0.5 mcg / mcl)</em></p>
+<p>v) add 290 mcl (2.5 vols) ice-cold 100 % EtOH</p>
+<ul>
+<li><em>alternative is 1 vol isopropanol</em><br />
+</li>
+<li><em>mix gently but well</em></li>
+</ul>
+<p><br>
+vi) incubate on ice for 60 mins to allow DNA precipitate to form</p>
+<p>vii) spin @ 12,000 <em>g</em> × 30 mins @ 4 °</p>
+<p>viii) wash with 70% EtOH</p>
+<ul>
+<li><em>carefully remove supernatant</em><br />
+</li>
+<li><em>add 750 mcl 70 % EtOH and vortex to wash pellet</em><br />
+</li>
+<li><em>spin @ 12,000 g × 15 mins @ 4 °</em><br />
+</li>
+<li><em>some people repeat this wash at room temperature to dissolve any co-precipitated salts (Zumbo)</em></li>
+</ul>
+<p><br>
+ix) air-dry</p>
+<ul>
+<li><em>carefully remove supernatant</em><br />
+</li>
+<li><em>air-dry on bench @ RT ° until all EtOH has evaporated (c. 5 – 10 mins)</em><br />
+</li>
+<li><em>do not over-dry as this can make solubilisation tricky</em></li>
+</ul>
+<p><br>
+x) resuspend in water</p>
+<ul>
+<li><em>dissolve the DNA pellet in aq or resuspension buffer (e.g. 20 mcl so final glycogen c. 3 mcg / mcl)</em><br />
+</li>
+<li><em>glycogen &lt; 8 mcg/mcl doesn’t interfere with downstream applications</em><br />
+</li>
+<li><em>rinse wall of tubes well (push bead of fluid back and forth over the back wall of the tube)</em><br />
+</li>
+<li><em>leave to re-suspend × 15 mins @ RT°</em><br />
+</li>
+<li><em>+/- open tube and incubate @ 45 ° for 2 – 3 mins to evaporate any last traces of EtOH</em></li>
+</ul>
+</div>
+<div id="references" class="section level2 hasAnchor" number="3.4">
+<h2><span class="header-section-number">3.4</span> References<a href="precipitation-of-nucleic-acid.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><a href="http://link.springer.com/10.1007/978-1-4939-2547-6_8">Clerget et. al. (2015)</a>.</p>
+<p>Kim Y-K, Yeo J, Kim B, Ha M &amp; Kim VN (2012). Short structured RNAs with low GC content are selectively lost during extraction from a small number of cells. <em>Mol Cell</em> <strong>46,</strong> 893–895.</p>
+<p>Sambrook J &amp; Russel D (Cold Spring Harbor Laboratory Press). <em>Molecular Cloning: A Laboratory Manual</em>, 3rd edn.</p>
 
 </div>
-<div class="footnotes">
-<hr />
-<ol start="6">
-<li id="fn6"><p>agar in Luria-Bertani medium<a href="agar-plates.html#fnref6" class="footnote-back">↩︎</a></p></li>
-<li id="fn7"><p>for 500 mls microwave for 30 mins<a href="agar-plates.html#fnref7" class="footnote-back">↩︎</a></p></li>
-</ol>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="rna-extraction.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="preparation-of-plasmid-dna-from-e.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="gel-electrophoresis.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="working-with-rna.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

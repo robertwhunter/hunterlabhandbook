@@ -1,0 +1,149 @@
+---
+editor_options:
+  markdown:
+    notes:
+      prefix: "[chap12_]"
+---
+
+
+# Gel Electrophoresis
+
+```{block2, type='note'}
+
+*TAE has a lower buffering capacity (c.f. TBE or TPE) -- if buffer becomes exhausted then bromophenol blue will turn yellow (in acidic anodic portion of gel). Linear dsDNA migrates faster through TAE c.f. TBE (c. 10 %) -- therefore TAE is better for resolving high-MW gDNA, TBE is better for resolving low-MW DNAs. TAE is better for resolving supercoiled DNA.*
+
+*For good looking gels, run maxigels @ 40V × 24 hrs (do NOT exceed this voltage!)*
+
+```
+
+
+## Agarose gel (1 %)
+
+*This recipe is sufficient for a gel (and buffer) for a midi tray.*
+
+i\) make 1L of TAE (× 1)[^12_1]  
+
+ii\) mix 1.2 g agarose with 60 ml TAE (× 1) in 500 ml screw-top bottle  
+
+  - weigh bottle and note weight  
+
+<br>
+iii\) microwave (e.g. 1 min 50 s)  
+
+  - check to see if agarose dissolved (use oven gloves)  
+  - microwave again (e.g. 30 -- 60 s) and repeat prn until dissolved  
+
+<br>
+iv\) weigh bottle and top up to original weight with dH~2~O[^12_2]
+
+v\) add 60 ml TAE (× 1)[^12_3]
+
+vi\) add 12 mcl for 10,000x GelRed  
+
+v\) pour gel and allow to set  
+
+vi\) wrap in cling-film and store @ 4° overnight if not for immediate use  
+
+
+## Run gel  
+
+*ensure correct orientation (DNA runs NEG to POS)*
+
+i\) mix DNA with loading dye[^12_4] (e.g. 2 μl dye for each 20 μl of DNA sample)
+
+ii\) load samples into gel avoiding bubbles (e.g. 18 μl in each lane)  
+
+  - load ladder (e.g. 5 μl of GeneRuler)  
+
+<br>
+iii\) switch on (e.g. 80 V × 300 mA × 60 mins)[^12_5]  
+
+  - ensure electrodes are bubbling  
+  - check periodically to see where dye-front is  
+
+
+## Supplementary information
+
+*http://www.fermentas.com/techinfo/appendix/appendixtables1.htm*
+
+**Recommended gel percentages for separation of linear DNA**
+
+  ------------- ------------------- ------------------ ---------------------
+  **Agarose gel **Range of          **Polyacrylamide   **Range of separation
+  (%)**         separation (bp)**   gel (%)**          (bp)**
+
+  0.5           1,000-30,000        3.5                100-1,000
+
+  0.7           800-12,000          5.0                80-500
+
+  1.0           500-10,000          8.0                60-400
+
+  1.2           400-7,000           12.0               40-200
+
+  1.4           200-4,000           20.0               5-100
+
+  2.0           50-2,000                               
+  ------------- ------------------- ------------------ ---------------------
+
+<br>
+<br>
+
+**Migration rates of the marker dyes through polyacrylamide and agarose gels**
+
+*The approximate sizes of DNA fragments with which the indicated marker dye comigrates.*
+
+  ----------------------- ----------------------- -----------------------
+  **Polyacrylamide gel    **Bromophenol blue**    **Xylene cyanol FF**
+  (%)**                                           
+
+                                                  
+
+  **Non-denaturing gels**                         
+
+  3.5                     100 bp                  460 bp
+
+  5.0                     65 bp                   260 bp
+
+  8.0                     45 bp                   160 bp
+
+  12.0                    20 bp                   70 bp
+
+  15.0                    15 bp                   60 bp
+
+  20.0                    12 bp                   45 bp
+
+                                                  
+
+  **Denaturing gels**                             
+
+  5.0                     35 bases                130 bases
+
+  6.0                     29 bases                106 bases
+
+  8.0                     26 bases                76 bases
+
+  10.0                    12 bases                55 bases
+
+  20.0                    8 bases                 28 bases
+  ----------------------- ----------------------- -----------------------
+
+  ------------------- ------------------- ------------------- ------------
+  **Agarose           **Bromophenol       **Xylene cyanol     **Orange G**
+  concentration (%)** blue**              FF**                
+
+  0.7-1.7             \~300bp             \~4000bp            \~50bp
+
+  2.5-3.0             \~100bp             \~800bp             \~30bp
+  ------------------- ------------------- ------------------- ------------
+
+
+[^12_1]: use the same batch of TAE (× 1) for the gel and the buffer (or else will get blurred bands)  
+
+[^12_2]: this step replaces water lost through evaporation during microwaving; alternatively zero balance when first weighed and then top back up to zero  
+
+[^12_3]: this step helps the mixture to cool  
+
+[^12_4]: this should *just* tint the mixture but no more  
+
+[^12_5]: usually bromophenol blue / xylene cyanol but may be OrangeG if bands are very low-MW  
+

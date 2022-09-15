@@ -1,0 +1,132 @@
+---
+editor_options:
+  markdown:
+    notes:
+      prefix: "[chap22_]"
+---
+
+# Preparation of plasmid DNA from E. coli
+
+```{block2, type='note'}
+
+**Theory**
+
+The traditional method of isolating plasmid DNA from E. coli is alkaline lysis with SDS (Birnboim & Doly, 1979). Plasmid DNA may then be purified by column chromatography. Commercial kits are available to perform both of the above.
+
+**ALKALINE LYSIS WITH SDS**
+
+Exposure of bacterial suspensions to a strongly anionic detergent at high pH ruptures the cells and denatures proteins and chromosomes. The cell walls, proteins and chromosomal DNA become enmeshed in large complexes that are coated with dodecyl sulphate. When potassium ions are added (to replace sodium ions), these complexes precipitate out, leaving plasmid DNA in solution. Therefore plasmid DNA can be recovered from the supernatant after centrifugation.
+
+During the lysis phase, the alkaline pH completely disrupts base-pairing. However, stands of closed circular plasmid DNA are unable to separate from each other as they are topologically intertwined. The DNA strands fall back into register when the pH returns to normal (provided that the duration and / or intensity of OH ^--^ exposure is not too great).
+
+
+**COLUMN CHROMATOGRAPHY**
+
+Most kits use resins capable of ion-exchange / adsorption interaction chromatography. This process exploits the propensity of DNA to bind to silica in the presence of chaotropic salts. These salts are thought to dehydrate the sugar-phosphate backbone of dsDNA, permitting exposed PO~4~ ^3--^ residues to adsorb to the silicate matrix. Once adsorbed, the dsDNA cannot be eluted by solvents (e.g. 50 % EtOH) that displace other biopolymers such as RNA and carbohydrates. When the dsDNA is rehydrated by washing with an aqueous buffer (e.g. TE / H~2~O) then it can be recovered in the effluent. The adsorption of dsDNA to the silicate matrix is independent of base composition and topology (and therefore this method can be used to purify circular plasmid or long linear DNA) but is dependant on DNA fragment length. Fragments less then 100 -- 200 bp adsorb poorly to the resin and this method is not suitable for their purification.
+
+**COMBINED KIT**
+
+Commercial kits differ in the chemical composition of the binding resin (which is usually supplied pre-packed in columns) and the chemical reagents used with them. Most protocols include the following steps:
+
+i\) grow E. coli to sufficient numbers
+
+ii\) harvest bacteria by centrifuging and re-suspending pellet (to form a homogenous cell suspension)
+
+iii\) lyse cells (with alkaline lysis with SDS)
+
+iv\) prepare DNA and column for chromatography
+
+v\) bind DNA to binding resin
+
+vi\) wash other biopolymers away
+
+vii\) elute DNA
+
+viii\) concentrate DNA (if required)
+
+```
+
+
+## Growing E. coli (5 ml culture)
+
+*Have naked flame to sterilise glassware.*
+
+i\) dispense 5 ml LB-broth into 50 ml falcon tube
+
+ii\) add antibiotics e.g. ampicillin 100 μg ml ^--1^ (= 5 μl of 100 mg ml ^--1^ stock) or kanamicin 12.5 μg ml ^--1^ (= 1.25 μl of 50 mg ml ^--1^ stock)
+
+iii\) select single E. coli colony from agar plate (or use wire loop to draw from glycerol stock)
+
+iv\) loosely fit lid (to allow gas exchange for bacteria) and secure with tape
+
+v\) incubate @ 37° × c. 200 rpm × c. 6 hrs[^22_1]  
+
+
+## Growing E. coli (50 ml culture)
+
+*Have naked flame to sterilise glassware.*
+
+i\) dispense 50 ml LB-broth into 500 ml conical flask
+
+ii\) add antibiotics e.g. ampicillin 100 μg ml ^--1^ (= 50 μl of 100 mg ml ^--1^ stock) or kanamicin 12.5 μg ml ^--1^ (= 12.5 μl of 50 mg ml ^--1^ stock)
+
+iii\) add 5 ml culture (as made above)
+
+iv\) loosely fit lid (to allow gas exchange for bacteria) and secure with tape
+
+v\) incubate @ 37° × c. 200 rpm × overnight[^22_2]
+
+
+## Plasmid preparation  
+
+### Plasmid prep kit
+
+*discard waste into virkon*
+
+i\) if making glycerol stocks then do so at this stage:  
+
+  - put 200 μl cells into pre-chilled 1.5 ml Eppendorf tube  
+  - add 200 μl 80 % glycerol (in LB-broth)  
+  - vortex to mix  
+  - transfer to -- 80 ° freezer asap  
+
+<br>
+ii\) spin overnight culture @ 3500 rpm (or g?) × 10' @ 4 ° > discard supernatant
+
+iii\) prepare plasmid with kit (e.g. GenElute HP miniprep or midi-prep kit)[^22_3]  
+
+
+### DNA precipitation (for midipreps)
+
+iv\) transfer the eluate to a 2 ml Eppendorf tube
+
+v\) add 0.1 vols sodium acetate (3M, p.H 5.2)  
+  - add 0.7 vols isopropanol  
+  - mix well by inversion  
+  - spin @ 13000g × 10 mins  
+
+<br>
+vi\) discard the supernatant (carefully)  
+  - rinse the DNA pellet with 1.5 ml 70 % EtOH  
+  - spin @ 13000g × 10 mins  
+
+<br>
+vii\) discard the supernatant (carefully)  
+  - pulse in centrifuge and remove final few drops of EtOH  
+  - air-dry for 5 -- 10 mins  
+
+<br>
+viii\) resuspend in c. 30 -- 100 μl TE  
+  - leave to stand for 5 -- 10 min @ RT ° (or @ 4 ° overnight)  
+  - gently pipette up and down to mix (final mixture should be gloopy)  
+
+<br>
+ix\) verify plasmid concentration with nanodrop spectrophotometer (remember to use TE to blank)  
+  - adjust to desired concentration (e.g. λ = 1 μg μl ^--1^)  
+
+
+[^22_1]: incubate @ 32 ° for unstable plasmids
+
+[^22_2]: ditto
+
+[^22_3]: remember to ensure that the kit has been correctly prepared by adding RNase A to the resuspension solution, EtOH to wash solution 2 and that the resuspension and neutralisation solutions have been chilled

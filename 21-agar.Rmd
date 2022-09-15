@@ -1,3 +1,5 @@
+# (PART) Bacteriology {-}
+
 # Agar plates
 
 **Pour plates**
@@ -11,25 +13,26 @@
 
 i\) set water bath to 60 °
 
-ii\) heat 250 ml LB-agar (microwave power level 4 × 10 mins)[^1][^2]
+ii\) heat 250 ml LB-agar (microwave power level 4 × 10 mins)[^21_1][^21_2]
 
 iii\) cool in 60 ° water bath until hand-hot
 
-iv\) add antibiotics (@ same concentrations used in liquid culture)
+iv\) add antibiotics (@ same concentrations used in liquid culture)  
 
-ampicillin 100 μg ml ^--1^ (= 250 μl of 100 mg ml ^--1^ stock to 250 ml agar)
+  - ampicillin 100 μg ml ^--1^ (= 250 μl of 100 mg ml ^--1^ stock to 250 ml agar)  
+  - kanamicin 12.5 μg ml ^--1^ (= 62.5 μl of 50 mg ml ^--1^ stock to 250 ml agar)  
 
-kanamicin 12.5 μg ml ^--1^ (= 62.5 μl of 50 mg ml ^--1^ stock to 250 ml agar)
+<br>
+v\) pour plates in stacks of 3  
 
-v\) pour plates in stacks of 3
+  - flame away bubbles  
 
-flame away bubbles
-
+<br>
 vi\) store inverted @ 4 °
 
 vii\) remove from fridge c. 60 mins before use and dry @ 37 ° with lids slightly off
 
 
-[^1]: agar in Luria-Bertani medium
+[^21_1]: agar in Luria-Bertani medium
 
-[^2]: for 500 mls microwave for 30 mins
+[^21_2]: for 500 mls microwave for 30 mins

@@ -1,0 +1,177 @@
+# RNA extraction
+
+## Background
+
+```{block2, type='note'}
+
+**Chomczynski & Sacchi: the classic method**
+
+My protocol was originally adapted from methods used to extract RNA from micro-dissected tubules: (Moriyama et al., 1990; Terada et al.,
+1992)\....and Annie Mercier-Zuber's thesis. In my hands, three alternative methods of RNA preparation (solution D, TRIzol and RNeasy spin columns) appear to work equally well.
+
+However, this is all adapted from the classic single-step method of RNA extraction by combined guinidinium thiocyante with phenol-chloroform
+extraction under acidic conditions (Chomczynski & Sacchi, 2006). The acid pH is crucial -- see my notes on phenol-chloroform extraction.
+Therefore Chomczynski & Sacchi use water-saturated (NOT buffered) phenol.
+
+**Which reagent to use?**
+
+TRIzol, TRI reagent (AM9738), TRIsure (38033) and QIAzol are all monophasic solutions of phenol / guanidine thiocyanate that facilitate rapid isolation of RNA (partitions to aqueous phase), DNA (to interphase) and protein (to organic phase) (Rio *et al.*, 2010). QIAzol has been optimised for use in fatty tissues (adipose / brain). Bromochloropropane may be used as a less toxic alternative to chloroform (Chomczynski & Mackey, 1995).
+
+TRIzol-LS is optimised for liquid samples.
+
+Phase-lock gel tubes (such as MaxTract high density tubes) are compatible with TRIzol and QIAzol. The nucleic acid partitions to the aqueous phase (so presumably this might increase the amount of gDNA contamination). Maybe best used at the very end of a protocol to clean up final RNA sample.
+
+**Silica columns**
+
+An alternative to organic phase extraction is to use silica columns (see below). Cost-effective "home-made" protocols seem to work well (Escobar
+& Hunt, 2017). Direct-zol^TM^ kits offer a rapid, column-based protocol that avoids the need for phase separation (which can apparently bias miRNA extraction).
+
+**miRNA extraction**
+
+There are important features to note when considering extraction of small RNAs / miRNAs. The amount of starting material and the isolation method have the greatest potential to bias any results. For example:
+
+-   *structured small RNAs with low-GC content (including miRNA, pre-miRNA, tRNA...) are selectively lost during TRIzol extraction (c.f. mirVana miRNA kit)* (Kim *et al.*, 2012)
+
+-   *Mg^2+^ can enhance miRNA recovery, presumably by stabilising interactions with carrier long RNA -- reverse seen with EDTA (ibid)*
+
+-   *miRCURY^TM^ kit recovers highly pure RNA but miRNA was selectively lost at increasing quantities of input material (El-Khoury et al., 2016)*
+
+-   *miRNeasy kit recovers less pure RNA but more miRNA (ibid)*
+
+-   *miRNeasy is better than miRCURY^TM^ at recovering miRNA / small RNAs from cells and exosomes (plasma & urine) (ibid)*
+
+-   *some miRNAs were selectively lost by either kit (ibid)*
+
+-   *TRIzol recovered low-purity RNA with detrimental effects on downstream applications (ibid)*
+
+-   *their purity of RNA using miRNeasy kit was higher than has been reported by other investigators -- perhaps because they used PLG tubes (ibid); they also* *obtained higher recovery when using MS2 (bacteriophage) RNA to mix with Qiazol as carrier*
+
+-   *some investigators have reported better yields with the addition of a carrier (e.g. 5 mcg glycogen) to samples in TRIzol before input into miRNeasy columns* (Duy *et al.*, 2015)
+
+```
+
+
+Conclusions: for high-quality miRNA preparations, prefer:  
+
+- miRNeasy kit (with use of PLG tubes) +/- glycogen 
+
+- standardised abundance of starting material 
+
+
+## Materials (for 'solution D' method)
+
+- 0.75 M Na citrate, pH 7  
+  - trisodium citrate dehydrate (MW 294.1) 17.65 g  
+  - DEPC aq to 70 ml  
+  - pH to 7.0; top up to 80 ml  
+  - autoclave  
+
+
+- 2 M Na acetate, pH 4  
+  - sodium acetate 21.78 g  
+  - DEPC aq to 50 ml  
+  - pH to 4.0 with concentrated HCl; top up to 80 ml  
+  - autoclave  
+
+- solution D (50 ml)  
+  - guanidine thiocyanate 25 g = 4M  
+  - DEPC aq 30.6 ml  
+  - 0.75 M Na citrate, pH 7 1.76 ml = 25 mM  
+  - sarcosyl 20 % 1.32 ml = 0.5 %   
+  - stir @ 65 º until dissolved   
+  - store for up to 3 months @ RT º (protect from the light; discard if yellows)   
+  - to each 400 mcl, add immediately before use: β-mercaptoethanol (14.4M) 2.9 mcl = 100 mM  
+
+
+- chloroform:isoamylalcohol 49:1  
+
+- water-saturated phenol  
+
+
+## Method ('solution D')
+
+i)  dissolve samples in 400 mcl solution D with βME
+
+  - *lyse samples (e.g. by vortexing or passing through a 21G needle)*
+  - *sit @ RT for 5 min for complete dissociation of nucleoprotein complexes (but for NOT more than 30 mins)*
+
+<br>
+ii) add 40 mcl 2M Na acetate, pH 4.0  
+
+  - *mix well by inversion and centrifuge for 15 s*  
+
+<br>
+iii) add 400 mcl phenol (water-saturated)  
+
+  - *mix well by inversion and centrifuge for 15 s*  
+
+<br>
+iv) add 80 mcl chloroform:isoamylalcohol (49:1)  
+
+  - *mix well by inversion and centrifuge for 15 s*  
+
+<br>
+v)  vortex vigorously × 10 s
+
+vi) incubate on ice × 15'
+
+vii) spin @ 10,000 *g* × 20' @ 4 º
+
+viii) proceed with alcohol precipitation
+
+
+## Method (QIAzol^®^)
+
+```{block2, type='note'}
+
+QIAzol^®^ (a monophasic solution of guanidinium and phenol) may be used in a protocol that is directly analogous to the classic "solution D" protocol. Alternatively, RNA can be extracted using RNeasy^®^ Kits, in which silica membrane technology is used to remove residual phenol (that can interfere with RNA quantitation and downstream applications).
+
+```
+
+i)  dissolve samples in 400 mcl Qiazol (e.g. for 40 mg tissue)  
+
+  - *lyse samples (e.g. by vortexing or passing through a 21G needle)*  
+  - *sit @ RT for 5 min for complete dissociation of nucleoprotein complexes (but for NOT more than 30 mins)*  
+
+<br>
+ii) add 80 mcl chloroform
+
+iii) shake vigorously × 15 s
+
+iv) incubate at RT × 2-3'
+
+v)  spin @ 12,000 *g* × 15' @ 4 º  
+
+  - *salvage aqueous phase*  
+
+<br>
+vi) proceed with alcohol precipitation
+
+<br>
+<br>
+
+RNA purity can be improved by (Toni *et al.*, 2018):
+
+- repeating chloroform extraction step x1 (so done twice in total)  
+- repeating 75% EtOH washes x2 (so done three times in total)  
+
+<br>
+<br>
+
+## References  
+
+Chomczynski P & Mackey K (1995). Substitution of chloroform by bromo-chloropropane in the single-step method of RNA isolation. *Anal Biochem* **225,** 163--164.
+
+Chomczynski P & Sacchi N (2006). The single-step method of RNA isolation by acid guanidinium thiocyanate-phenol-chloroform extraction: twenty-something years on. *Nat Protoc* **1,** 581--585.
+
+Duy J, Koehler JW, Honko AN & Minogue TD (2015). Optimized microRNA purification from TRIzol-treated plasma. *BMC Genomics*; DOI: 10.1186/s12864-015-1299-5.
+
+El-Khoury V, Pierson S, Kaoma T, Bernardin F & Berchem G (2016). Assessing cellular and circulating miRNA recovery: the impact of the RNA isolation method and the quantity of input material. *Sci Rep*; DOI: 10.1038/srep19529.
+
+Escobar MD & Hunt JL (2017). A cost-effective RNA extraction technique from animal cells and tissue using silica columns. *J Biol Methods* **4,** 72.
+
+Kim Y-K, Yeo J, Kim B, Ha M & Kim VN (2012). Short structured RNAs with low GC content are selectively lost during extraction from a small number of cells. *Mol Cell* **46,** 893--895.
+
+Rio DC, Ares M, Hannon GJ & Nilsen TW (2010). Purification of RNA Using TRIzol (TRI Reagent). *Cold Spring Harb Protoc* **2010,** pdb.prot5439-pdb.prot5439.
+
+Toni LS, Garcia AM, Jeffrey DA, Jiang X, Stauffer BL, Miyamoto SD & Sucharov CC (2018). Optimization of phenol-chloroform RNA extraction. *MethodsX* **5,** 599--608.
