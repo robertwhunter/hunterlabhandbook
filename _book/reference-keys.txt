@@ -35,3 +35,9 @@ growth-medium
 thawing
 splitting
 freezing
+chemical-transfection-of-mccd-cells
+materials-2
+method-transient-transfection
+preparation-and-planning
+day-of-transfection
+method-stable-transfection

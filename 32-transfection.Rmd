@@ -1,0 +1,67 @@
+# Chemical transfection of mCCD cells
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+
+```
+
+## Materials  
+
+- jetPEI  
+
+- DNA to transfect (as supercoiled plasmid in TE)  
+
+
+## Method (transient transfection)
+
+### Preparation and planning
+
+```{block2, type='note'}
+
+Follow [kit protocol](https://labettor.com/uploads/products/protocols/516.pdf) for forward transfection with an N/P ratio = 5 (i.e. 2 mcl jetPEI per 1 mcg DNA).  
+
+The volumes here are suitable for transfecting 3 wells in a 24-well plate.  Scale according to culture area.  [Well areas](https://www.thermofisher.com/uk/en/home/references/gibco-cell-culture-basics/cell-culture-protocols/cell-culture-useful-numbers.html) (cm^2^) are: 8-chamber slide = 0.7; 96-well plate = ; 0.32; 48-well plate = 1.1; 24-well plate = 1.9.  
+
+Can use standard growth medium throughout; no need to avoid serum.  
+
+```
+
+<br>
+
+i\) seed cells 24 hrs prior - so at 50 -- 70 % confluency on day of transfection  
+
+<br>
+<br>
+
+### Day of transfection
+
+ii\) refeed cells with 0.5 ml fresh medium  
+
+<br>
+
+iii\) **prepare DNA**:  
+    - dilute 3 mcg DNA into total 150 mcl 150 mM NaCl > vortex and spin down  
+
+iv\) **prepare jetPEI**:  
+    - vortex jetPEI (5s) and spin down  
+    - dilute 6 mcl jetPEI into total 150 mcl 150 mM NaCl (i.e. 6 mcl plus 144 mcl) > vortex and spin down  
+    
+v\) **mix**:  
+    - add jetPEI to DNA (in that order) > vortex > spin down  
+    - incubate at RT for 15 -- 30 mins  
+
+<br>
+
+vi\) add 100 mcl drop-wise to each well = 1 mcg DNA and 2 mcl jetPEI per well > pipette gently to mix  
+
+vii\) add 0.5 ml fresh medium after 2 hrs (to top up to 1.0 ml total)  
+
+<br>
+<br>
+
+## Method (stable transfection)
+
+Linearise plasmid prior to transfection.  
+Perform transfection in 6-well plate or 100 mm dish.  
+Start antibiotic selection (e.g. G418 400 mcg per ml) at 24 -- 48 hrs after transfection.  
