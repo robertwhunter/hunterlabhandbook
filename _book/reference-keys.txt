@@ -35,8 +35,12 @@ growth-medium
 thawing
 splitting
 freezing
-chemical-transfection-of-mccd-cells
+rptec-culture-protocols
 materials-2
+methods-1
+growth-medium-1
+chemical-transfection-of-mccd-cells
+materials-3
 method-transient-transfection
 preparation-and-planning
 day-of-transfection

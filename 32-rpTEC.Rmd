@@ -1,0 +1,75 @@
+# rpTEC culture protocols
+
+```{r setup_rpTEC, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+
+```
+
+```{block2, type='note'}
+This growth medium adapted from various sources, including the ATCC documentation, Aschauer et al. (Mol Cell Biol 2013), Sneddon et al. (JBC 2016), Wieser et al. (AJP 2008).  
+
+NB ATCC documentation states that RPTEC/TERT1 cells should be grown in G418 (100 mcg / ml) in order to maintain selective pressure for immortalisation.  This does not appear to be important in practice.  It is not entirely clear why rpTEC-TERT1 cells are cultured in serum-free medium.  This is perhaps because of historic serum-free protocols used to culture rTECs in the 1970s (Wieser et al., 2008).  For the best discussion of this need to read Taub & Livingston (1981).  
+
+ITS was classically used to allow cells to grow in serum-free or low-serum (2-4 %) media.  There are some differences in commercial formulations.  For example, Invitrogen 41400 (diluted 1:100): I = 10 mg/L, T = 5.5 mg/L, S = 6.7 mcg/L; Sigma 1884 (used as per Bristol protocol for rpTECs): I = 5 mg/L, T = 5 mg/L, S  = 5 mcg/L; Sigma 3146 (diluted 1:100): I = 10 mg/L, T = 5.5 mg/L, S = 5 mcg/L.  
+
+```
+
+## Materials  
+
+-	cell-culture grade water (Gibco 15230162)  
+
+-	cell-culture grade NaOH (Sigma S2770)  
+
+- 500 ml DMEM/F12 with L-glutamine (e.g. Gibco 11039021)  
+    - *NB if adding L-glutamine separately, then go for final concentration 2 mM*  
+
+- tri-iodothyronine (Sigma T5516)  
+    - *make a 100 ng/ml stock: dissolve 1mg in 1ml 1M NaOH, adjust to 50 ml with H2O (= 20 mcg/ml) and F.S.*  
+    - *then dilute 50 mcl to 10 ml with H2O and freeze as 25 mcl aliquots*  
+<br>
+
+- hydrocortisone (Sigma H0135)  
+    - *make a 50 mcg/ml stock: dissolve 1 mg in 1 ml EtOH, adjust to 20 ml with H2O and F.S.*  
+    - *freeze as 370 mcl aliquots*  
+<br>
+    
+- rhEGF (Sigma E9644)  
+    - *make a 100 mcg/ml stock: dissolve 200 mcg in 2ml H2O and freeze as 55 mcl aliquots*  
+<br>
+
+- ITS (Gibco 41400045)  
+
+- pen/strep (Gibco 15140122)  
+
+<br>
+<br>
+
+## Methods
+
+### Growth medium
+
+To 500 ml DMEM/F12, add:  
+
+- 5 ml L-glutamine (IF NOT ALREADY IN BASE MEDIUM) \*\*  
+- 5 ml ITS \*\*  
+- 5 ml P/S \*\*  
+- 20 mcl T3  
+- 360 mcl hydrocortisone  
+- 50 mcl rhEGF (don’t filter)  
+
+\*\* = combine & F.S.
+
+Transfer 5 ml to T25 for a sterility test.  
+
+NB - this is serum-free medium.  
+
+<br>
+
+```{r recipe_rpTEC, eval=TRUE, echo=FALSE, warning=FALSE, message=FALSE, show_col_types=FALSE}
+
+df_recipe <- read_csv("rpTEC_growth.csv")
+df_recipe %>% knitr::kable()
+
+```
+
