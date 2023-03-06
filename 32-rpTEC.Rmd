@@ -21,7 +21,7 @@ ITS was classically used to allow cells to grow in serum-free or low-serum (2-4 
 
 -	cell-culture grade NaOH (Sigma S2770)  
 
-- 500 ml DMEM/F12 with L-glutamine (e.g. Gibco 11039021)  
+- 500 ml DMEM/F12 with L-glutamine (e.g. Gibco 11039021; used to use Biowhittaker BE12-719F and add L-glutamine separately)  
     - *NB if adding L-glutamine separately, then go for final concentration 2 mM*  
 
 - tri-iodothyronine (Sigma T5516)  
