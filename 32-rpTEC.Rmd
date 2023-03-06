@@ -24,6 +24,8 @@ ITS was classically used to allow cells to grow in serum-free or low-serum (2-4 
 - 500 ml DMEM/F12 with L-glutamine (e.g. Gibco 11039021; used to use Biowhittaker BE12-719F and add L-glutamine separately)  
     - *NB if adding L-glutamine separately, then go for final concentration 2 mM*  
 
+<br>
+
 - tri-iodothyronine (Sigma T5516)  
     - *make a 100 ng/ml stock: dissolve 1mg in 1ml 1M NaOH, adjust to 50 ml with H2O (= 20 mcg/ml) and F.S.*  
     - *then dilute 50 mcl to 10 ml with H2O and freeze as 25 mcl aliquots*  
@@ -51,7 +53,7 @@ ITS was classically used to allow cells to grow in serum-free or low-serum (2-4 
 
 To 500 ml DMEM/F12, add:  
 
-- 5 ml L-glutamine (IF NOT ALREADY IN BASE MEDIUM) \*\*  
+- 5 ml L-glutamine (ONLY IF NOT ALREADY IN BASE MEDIUM) \*\*  
 - 5 ml ITS \*\*  
 - 5 ml P/S \*\*  
 - 20 mcl T3  

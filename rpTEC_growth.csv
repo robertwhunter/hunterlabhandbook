@@ -4,7 +4,7 @@ insulin (Thermo 41400),1000 mg/L (172 nM),10 mg/L (1.72 nM)
 transferrin (ditto),550 mg/L (6.9 nM),5.5 mg/L (69 pM)
 sodium selenite (ditto),0.67 mg/L (3.9 nM),6.7 ng/L (39 pM)
 penicillin,"10,000 units/ml",100 units/ml
-streptomycin,10 mg/ml,100 µg/ml
-triiodothyronine (T3),100 ng/ml,6 pM
-epidermal growth factor (rhEGF),100 µg/ml,10 ng/ml
+streptomycin,10 mg/ml,100 mcg/ml
+triiodothyronine (T3),100 ng/ml,6 pM (= 4 pg/ml)
+epidermal growth factor (rhEGF),100 mcg/ml,10 ng/ml
 hydrocortisone,50 mcg/ml,36 ng/ml
