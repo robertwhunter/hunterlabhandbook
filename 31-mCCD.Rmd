@@ -57,8 +57,7 @@ Transfer 5 ml to T25 for a sterility test.
 
 ```{r recipe_mCCD, eval=TRUE, echo=FALSE, warning=FALSE, message=FALSE, show_col_types=FALSE}
 
-df_recipe <- read_csv("mCCD_growth.csv")
-df_recipe %>% knitr::kable()
+read_csv("mCCD_growth.csv") %>% knitr::kable()
 
 ```
 

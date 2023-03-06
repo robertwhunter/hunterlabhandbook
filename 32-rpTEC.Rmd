@@ -70,8 +70,14 @@ NB - this is serum-free medium.
 
 ```{r recipe_rpTEC, eval=TRUE, echo=FALSE, warning=FALSE, message=FALSE, show_col_types=FALSE}
 
-df_recipe <- read_csv("rpTEC_growth.csv")
-df_recipe %>% knitr::kable()
+read_csv("rpTEC_growth.csv") %>% knitr::kable()
 
 ```
 
+<br>
+
+### Passaging
+
+Typically need to trypsinise for c. 7 -- 8 mins.  Remember to quench with a serum-containing medium.  Typical split ratios 1:4 -- 1:6.  Cells look unhappy for 24 -- 48 hrs after splitting.  
+
+Freeze in 10% DMSO / 90% FCS.  

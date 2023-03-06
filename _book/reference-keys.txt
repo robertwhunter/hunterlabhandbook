@@ -39,6 +39,7 @@ rptec-culture-protocols
 materials-2
 methods-1
 growth-medium-1
+passaging
 chemical-transfection-of-mccd-cells
 materials-3
 method-transient-transfection
