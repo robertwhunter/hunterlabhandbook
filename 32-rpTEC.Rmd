@@ -78,6 +78,6 @@ read_csv("rpTEC_growth.csv") %>% knitr::kable()
 
 ### Passaging
 
-Typically need to trypsinise for c. 7 -- 8 mins.  Remember to quench with a serum-containing medium.  Typical split ratios 1:4 -- 1:6.  Cells look unhappy for 24 -- 48 hrs after splitting.  
+Typically need to trypsinise for c. 7 -- 8 mins.  Remember to quench with a serum-containing medium.  Typically split when 90% confluent, at ratios 1:4 -- 1:6.  Cells look unhappy for 24 -- 48 hrs after splitting.  
 
 Freeze in 10% DMSO / 90% FCS.  
