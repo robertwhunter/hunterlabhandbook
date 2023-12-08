@@ -1,6 +1,6 @@
 # Chemical transfection of mCCD cells
 
-```{r setup, include=FALSE}
+```{r setup_transfection, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 

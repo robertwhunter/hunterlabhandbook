@@ -1,0 +1,49 @@
+# Useful training links
+
+```{r setup_supervision, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+
+```
+
+## Setting up a new visitor
+
+1)	register on [VRS](https://docs.google.com/forms/d/e/1FAIpQLSdbZ45OTupNymHe-iR_x6fSynQU6qrHlB3c6GClOtcmjDQVJg/viewform) (unless UoE student in which case should register via Euclid)  
+
+    - remember to ask for access to VPN, MyEd and Learn (required for induction training)  
+    - if forget to do these then can ask for access to these services via IS-helpline afterwards  
+
+2)	complete visitors Risk Assessment (VRA); alternative would be a project SSW but have always done VRA in the past  
+
+
+3)	direct student to [CVS induction page](https://www.ed.ac.uk/cardiovascular-science/staff-students-only/information-for-new-staff-students) and get them to follow the step-by-step instructions: 
+
+    - will do some online training 
+    - will fill in a LOOH form 
+    - will then arrange for F2F induction 
+
+4)	add to e-mail lists (as per instructions in CVS welcome pack on the CVS induction page)  
+
+
+
+## Core regulations  
+
+- [CMVM wiki](https://www.wiki.ed.ac.uk/pages/viewpage.action?pageId=174612428)  
+- [Code of Practice](https://www.ed.ac.uk/files/atoms/files/copsupervisorsresearchstudents.pdf)  
+- [Research Student Handbook](https://www.wiki.ed.ac.uk/download/attachments/175653091/PGR%20College%20Handbook%202021-22.pdf?version=1&modificationDate=1629795474000&api=v2)    
+- [Dignity & respect policy](https://www.ed.ac.uk/ppls/about/equality-and-diversity/dignity-and-respect)  
+
+<br>
+
+## Advice  
+
+- [EUSA advice](https://www.eusa.ed.ac.uk/adviceplace) - very good; independent  
+- [UoE new students](https://www.ed.ac.uk/students/new-students)  
+- [UoE complaints](https://www.ed.ac.uk/university-secretary-group/complaint-handling-procedure/procedure)  
+- [Student counselling service](https://www.ed.ac.uk/student-counselling) - very good      
+- [Wellbeing](https://thewellbeingthesis.org.uk/)  
+- [Chaplaincy](https://www.ed.ac.uk/chaplaincy)  
+- [Disability and Learning Support service](https://www.ed.ac.uk/student-disability-service) - very good  
+
+<br>
+

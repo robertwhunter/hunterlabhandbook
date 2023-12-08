@@ -1,0 +1,12 @@
+# Data
+
+```{r setup_data, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+
+```
+
+We have paid for 10 yrs of 2TB data on DataStore (until Jan 2034).  
+
+To see directory details, log into [ecdf site](https://registration.ecdf.ed.ac.uk/storage).  
+
