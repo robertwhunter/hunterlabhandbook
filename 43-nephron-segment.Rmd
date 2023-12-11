@@ -1,0 +1,155 @@
+# (PART) In vivo {-}
+
+# Isolation of nephron segments  
+
+```{r setup_nephron_segment, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+
+```
+
+## Materials (equipment)  
+
+1) dissection pins from	[Watkins & Doncaster](www.watdon.co.uk):  
+
+  - AA2 stainless steel headless pins (E6870) = fine tips 
+  - D3 stainless steel headless pins (E6903) = coarse tips 
+  - mount onto sawn-off Pasteur pipettes using sealing wax (Amazon)  
+
+<br>
+2) dissection tray:  
+
+  - small polystyrene ice box 
+  - metal plate with black finish (e.g. overlay with developed photographic film) 
+  - bed of ice beneath – prepare in freezer overnight  
+
+<br>
+3) other:  
+
+  - large petri dish – for cutting up whole kidney 
+  - small petri dishes (c. 4 cm diameter) – for microdissection 
+  - scalpels 
+  - 50 mcl Hamilton syringe 
+  - P50   
+  - dissecting microscope  
+  - collection tubes (1.5 ml eppendorfs +/- RLT plus buffer)  
+  - trypan blue 
+  - [chamber slides](https://www.thermofisher.com/uk/en/home/life-science/cell-culture/cell-culture-plastics/chamber-slides-coverglass.html) and coverslips 
+  - [Cell-Tak](https://ecatalog.corning.com/life-sciences/b2b/UK/en/Browse-Products-by-Application/3D-Cell-Culture/3D-Cellular-Models/Other-Corning%C2%AE-ECMs/p/354240)  
+
+
+
+## Materials (solutions)  
+
+```{block2, type='note'}
+
+Make up 4.5 ml collagenase medium, 4 ml quench medium and 40 ml microdissection medium per kidney.  
+
+BSA quenches collagenase activity.  
+
+```
+
+<br>
+
+- **HBSS** (HEPES-buffered saline solution, pH 7.4, 0.5 mM Ca, 1.8 mM Mg)  
+- **collagenase stock** = 10 mg per ml collagenase type IA (Sigma C9891); store in 120 mcl aliquots at -20  
+
+- **BSA stock** = 100 mg per ml in HBSS  
+
+- **collagenase medium** = 250 mcg per ml = 113 mcl stock + 4387 ml HBSS
+
+- **quench medium** = 1% BSA = 400 mcl of 10% stock + 3600 mcl  
+
+- **microdissection medium** = 0.1% BSA = 400 mcl of 10% stock + 39.6 ml HBSS
+
+- **0.04% Trypan blue** = 0.4% stock diluted 1:10 in HBSS  
+
+
+## Method 
+
+```{block2, type='note'}
+
+Adapted from those of Wagner (Pflugers 2003), Tumlin (AJP 1994), Bailey (KI 2000) and Schafer (AJP 1997).  
+
+Exact protocol will depend on final application (imaging, RNA prep, function studies etc.)  
+
+```
+
+<br>
+
+i\) decapsulate kidney into ice-cold HBSS:  
+
+  - bisect along long axis (i.e. coronal section through the hilum) 
+  - for OPTION 1 below: cut each half into three cortico-medullary wedges 
+  - for OPTION 2 below: cut into tiny chunks and incubate Cx and Md separately  
+    
+<br>
+
+ii\) incubate in 1.5 ml collagenase medium at 37deg for 30 mins  
+
+<br>
+
+iii\) transfer to microdissection medium on ice (to quench collagenase)  
+
+<br>
+
+iv\) **OPTION 1) = microdissection**:  
+
+  - use dissecting microscope with swan-neck light source from side (turned down low) 
+  - use coarse tips to tear off tissue chunks... 
+  - ...and then tease through with fine tips 
+  - dissect out over 3 -- 4 hrs 
+  - such tubule segments up into P50 on a 50 mcl glass Hamilton syringe 
+  - clean Hamilton syringe with EtOH at the end  
+    
+<br>
+
+iv\) **OPTION 2) = chemical dissociation**:  
+
+  - gently agitate tube by inversion  
+  - remove spnt to fresh tube on ice; top up pellet with fresh collagenase medium to continue digestion for another 30 mins 
+  - allow tubules to sediment at *g* 
+  - carefully discard spnt and gently re-suspend in 500 mcl quench medium 
+  - incubate in quench medium on ice for 10 mins (inverting every 3 - 4 mins) 
+  - discard spnt and gently re-suspend in 300 mcl microdissection medium 
+  - add 100 mcl of tubule suspension to 3 ml microdissection medium in a small petri dish 
+  - sort out tubules over 1 -- 2 hrs 
+  - replace with fresh tubule suspension intermittently 
+  - retrieve tubules of interest into 10 mcl medium using P50 on Hamilton syringe  
+    
+<br>
+
+v\) to assess tubule viability:  
+
+  - transfer to 10 ml 0.04% Trypan blue 
+  - incubate at RT for 10 mins 
+  - dilute into 2 ml HBSS and examine for stained (non-viable cells)  
+
+<br>
+
+vi\) to image:  
+
+  - resuspend tubules in culture medium  
+  - pipette onto coverslips in chamber slides 
+  - leave to settle for 60 mins 
+  - may need to pre-coat coverslips with Cell-Tak  
+    
+<br>
+<br>
+
+```{block2, type='note'}
+
+Segement identification:  
+  
+- PCTs:	thick, bright, shiny, silvery  
+- TALHs:	flatter, straight  
+- DCTs:	adherent to glomeruli; contiguous with CCD; pig-tails  
+- CDs:	cobbled, branched  
+- vessels:	thin; attached to glomeruli  
+
+<br>
+  
+Viability of PCT (by Trypan blue) is less than that of CCD - a useful control measure.  
+
+```
