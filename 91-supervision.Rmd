@@ -13,6 +13,7 @@ library(tidyverse)
 1)	register on [VRS](https://docs.google.com/forms/d/e/1FAIpQLSdbZ45OTupNymHe-iR_x6fSynQU6qrHlB3c6GClOtcmjDQVJg/viewform) (unless UoE student in which case should register via Euclid)  
 
     - remember to ask for access to VPN, MyEd, Learn and Cardinus (required for induction training)  
+    - remember also to ask for access to U: drive so can see CVS RAs  
     - if forget to do these then can ask for access to these services via IS-helpline afterwards  
 
 2)	complete visitors Risk Assessment (VRA); alternative would be a project SSW but have always done VRA in the past  
