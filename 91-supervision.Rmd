@@ -1,6 +1,6 @@
 # (PART) Lab admin {-}
 
-# Useful training links
+# Useful admin links
 
 ```{r setup_supervision, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -52,3 +52,6 @@ library(tidyverse)
 
 <br>
 
+## Antibodies  
+
+Get in advance from C2.08.  Search the [database](https://system.crh.ed.ac.uk/histology/search_antibodies.php).  Order on PPMS, using SURFIMMUNO page.  
