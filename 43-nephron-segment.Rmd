@@ -30,16 +30,16 @@ library(tidyverse)
   - large petri dish – for cutting up whole kidney 
   - small petri dishes (c. 4 cm diameter) – for microdissection 
   - scalpels 
-  - 50 mcl Hamilton syringe 
-  - P50   
+  - 50 mcl Hamilton syringe (SLS SYR7006)
+  - P50 (used to be from Smith's Medical but now Instech BTPE PE50 tubing via Linton Instrumentation). 
   - dissecting microscope  
   - collection tubes (1.5 ml eppendorfs +/- RLT plus buffer)  
   - trypan blue 
-  - [chamber slides](https://www.thermofisher.com/uk/en/home/life-science/cell-culture/cell-culture-plastics/chamber-slides-coverglass.html) 
-  - coverslips 
-  - poly-D-lysine or poly-L-lysine (P5899 or P7280 or P4832) - for use as [here](https://www.sigmaaldrich.com/GB/en/technical-documents/protocol/cell-culture-and-cell-culture-analysis/3d-cell-culture/poly-lysine-product) or [here](https://www.protocols.io/view/coating-coverslips-for-cell-culture-5qpvornd9v4o/v1) 
+  - [chamber slides - e.g. Corning 354632](https://www.thermofisher.com/uk/en/home/life-science/cell-culture/cell-culture-plastics/chamber-slides-coverglass.html) 
+  - coverslips  
+  - poly-D-lysine or poly-L-lysine (P4832; or alternatives could be P5899 or P7280) - for use as [here](https://www.sigmaaldrich.com/GB/en/technical-documents/protocol/cell-culture-and-cell-culture-analysis/3d-cell-culture/poly-lysine-product) or [here](https://www.protocols.io/view/coating-coverslips-for-cell-culture-5qpvornd9v4o/v1) 
   - [PLP](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.abcam.com/ps/products/62/ab62623/documents/Immunohistochemistry%20Protocol%20for%20ab62623%20(website).pdf) fixative or PFA 
-  - [Cell-Tak](https://ecatalog.corning.com/life-sciences/b2b/UK/en/Browse-Products-by-Application/3D-Cell-Culture/3D-Cellular-Models/Other-Corning%C2%AE-ECMs/p/354240)  
+  - [Cell-Tak (354240)](https://ecatalog.corning.com/life-sciences/b2b/UK/en/Browse-Products-by-Application/3D-Cell-Culture/3D-Cellular-Models/Other-Corning%C2%AE-ECMs/p/354240)  
 
 
 

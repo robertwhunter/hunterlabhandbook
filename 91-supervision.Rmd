@@ -10,7 +10,7 @@ library(tidyverse)
 
 ## Setting up a new visitor
 
-1)	register on [VRS](https://docs.google.com/forms/d/e/1FAIpQLSdbZ45OTupNymHe-iR_x6fSynQU6qrHlB3c6GClOtcmjDQVJg/viewform) (unless UoE student in which case should register via Euclid)  
+1)	register on [VRS](https://docs.google.com/forms/d/e/1FAIpQLSdbZ45OTupNymHe-iR_x6fSynQU6qrHlB3c6GClOtcmjDQVJg/viewform) (unless UoE student in which case should register via Euclid; students visiting for more than two weeks should register via [Euclid](https://www.ed.ac.uk/medicine-vet-medicine/prospective-undergraduates/visitingstudents))  
 
     - remember to ask for access to VPN, MyEd, Learn and Cardinus (required for induction training)  
     - remember also to ask for access to U: drive so can see CVS RAs  
