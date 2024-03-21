@@ -55,7 +55,8 @@ Heat to 70deg for 15 mins (NB do NOT heat ladder).
 
 i\) make 1L buffer for two chambers  
 ii\) rinse wells and load as per reference card  
-iii\) run @ 225V for 30 -- 45 mins  
+iii\) 5 mcl PageRuler Plus ladder  
+iv\) run @ 225V for 30 -- 45 mins  
 
 <br>
 <br>
@@ -96,10 +97,18 @@ vi\) ECL > LICOR Odyssesy
 <br>
 <br>
 
+To work LICOR Odyssey M:  
+
+- place blot protein side down and with higher MW towards user  
+- at the end, select all images and `export to analyse` to export .zip file  
+
+<br>
+<br>
+
 ### Post-stain 
 
 i\) wash x 5 mins x 3 with water  
-ii\) stain with Coomassie Blue for 5 mins. 
+ii\) stain with Instant Blue for 5 mins   
 iii\) destain in 50% MeOH (or 50% MeOH / 7% acetic acid?) for a few mins  
-iv\) image on IR channel 
+iv\) image on 630 Epi channel (or alternatively IR channels?)  
 
