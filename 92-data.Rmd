@@ -10,3 +10,4 @@ We have paid for 10 yrs of 2TB data on DataStore (until Jan 2034).
 
 To see directory details, log into [ecdf site](https://registration.ecdf.ed.ac.uk/storage).  
 
+To add users to shared directories, see [Research Service wiki](https://www.wiki.ed.ac.uk/display/ResearchServices/DataStore+-+Adding+Users).  
