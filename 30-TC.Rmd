@@ -1,0 +1,18 @@
+# (PART) Cell culture {-}
+
+# Useful information about cell culture
+
+```{r setup_TC, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+
+```
+
+Yields:  
+
+- podocyte progenitors (33deg): 12,500 cells per cm<sup>2</sup>  
+- podocytes mature (37deg): 5,500 cells = 5 mcg protein per cm<sup>2</sup> 
+- mCCD: 167,000 cells = 50 mcg protein per cm<sup>2</sup>  
+- rpTECs: 320,000 cells per cm<sup>2</sup>  
+
+7 mcg RNA per 1 million cells.  

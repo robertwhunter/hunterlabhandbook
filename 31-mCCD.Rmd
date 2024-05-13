@@ -1,5 +1,3 @@
-# (PART) Cell culture {-}
-
 # mCCD culture protocols
 
 ```{r setup_mCCD, include=FALSE}

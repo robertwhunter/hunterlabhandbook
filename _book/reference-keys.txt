@@ -37,6 +37,7 @@ growing-e.-coli-50-ml-culture
 plasmid-preparation
 plasmid-prep-kit
 dna-precipitation-for-midipreps
+useful-information-about-cell-culture
 mccd-culture-protocols
 materials-2
 methods
