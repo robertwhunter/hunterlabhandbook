@@ -8,6 +8,16 @@ library(tidyverse)
 
 ```
 
+## General materials for cell culture:  
+
+- culture medium (see cell protocols)  
+- FCS  
+- DMSO (D2650)  
+- filters  
+- formaldehyde (28906 or 28908)  
+
+<br>
+
 ## Yields:  
 
 - podocyte progenitors (33deg): 12,500 cells per cm<sup>2</sup>  
@@ -25,7 +35,7 @@ Therefore confluent T75 will be ~10<sup>7</sup> mCCD cells.
 
 ### Materials
 
-Prefer to purchase RIPA buffer (Abcam) and PICs (Merck cocktail set III).  
+Prefer to purchase RIPA buffer (ab156034) and PICs (Merck cocktail set III).  
 
 <br>
 

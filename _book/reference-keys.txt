@@ -38,6 +38,7 @@ plasmid-preparation
 plasmid-prep-kit
 dna-precipitation-for-midipreps
 general-protocols-for-cell-culture
+general-materials-for-cell-culture
 yields
 protein
 materials-2
