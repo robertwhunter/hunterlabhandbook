@@ -1,6 +1,6 @@
 # (PART) Cell culture {-}
 
-# Useful information about cell culture
+# General protocols for cell culture
 
 ```{r setup_TC, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -8,11 +8,124 @@ library(tidyverse)
 
 ```
 
-Yields:  
+## Yields:  
 
 - podocyte progenitors (33deg): 12,500 cells per cm<sup>2</sup>  
 - podocytes mature (37deg): 5,500 cells = 5 mcg protein per cm<sup>2</sup> 
 - mCCD: 167,000 cells = 50 mcg protein per cm<sup>2</sup>  
 - rpTECs: 320,000 cells per cm<sup>2</sup>  
 
+Therefore confluent T75 will be ~10<sup>7</sup> mCCD cells.  
+
 7 mcg RNA per 1 million cells.  
+
+<br>
+
+## Protein
+
+### Materials
+
+Prefer to purchase RIPA buffer (Abcam) and PICs (Merck cocktail set III).  
+
+<br>
+
+**RIPA buffer (homemade)**:  
+
+  - NaCl (5 M): 3 ml = 150 mM 
+  - EDTA (0.5 M, pH 8.0): 400 mcl = 2 mM 
+  - Triton-X 100: 1 ml = 1 % 
+  - sodium deoxycholate: 1 g = 1 % 
+  - Tris-HCl (1M, pH 8.0): 2.5 ml = 25 mM 
+  - SDS (10 %): 1 ml = 0.1 % 
+  - NaF: 210 mg = 50 mM 
+  - Na3VO4 (200 mM): 0.5 ml = 1 mM 
+  - Na β-glycerophosphate: 540 mg = 25 mM 
+  - ddH2O adjust to 100 ml 
+  - F.S. and store @ -20° as 5 ml aliquots
+  
+*Add protease inibitors (50 mcl of 100× to 5 ml; Merck cocktail set III) immediately prior to use.* 
+
+<br>
+
+**Protease inhibitors (100×) – cheap version**: 
+
+  - NaN3: 21.5 mg = 330 mM 
+  - AEBSF: 24 mg = 100 mM 
+  - leupeptin: 200 mcl of 10 mM stock = 2 mM 
+  - ddH2O to 1 ml 
+  - store @ -20° as 65 mcl aliquots 
+
+*For final (1 x) concentrations: NaN3 3.3 mM; AEBSF 1 mM; leupeptin 20 mcM. For urine / culture fluid (low protease activity) use at 1/10th of this – i.e. 20 mcl PIC for 20 ml fluid – NB need to compare this to others (e.g. Gonzales). NB 10 mM leupeptin stock = 1 mg in 210 mcl aq. Leupeptin 1 mg = £12.65; AEBSF 24 mg = £13 (therefore total £26 c.f. £45 for 1 ml Merck cocktail III).* 
+
+<br>
+
+### Method
+  
+**Preparation**:  
+
+- pre-chill PBS and RIPA on ice 
+- remember to add PIC to RIPA (e.g. Merck cocktail III @ 1:100) 
+
+<br>
+
+**Lysis on plate**:  
+
+*volumes given here would be appropriate for 1x T75 flask of confluent cells*
+
+- remove medium and wash cells twice with ice-cold PBS. 
+- add 1.5mL ice-cold RIPA (with PIC). 
+- incubate on ice × 15’, swirling occasionally. 
+- gather lysate to one side using a cell scraper and transfer to microcentrifuge tube. 
+- pass repeatedly (c. × 5) through a 21G (green) needle  
+- spin @ 13000 g × 15’ @ 4 ° to pellet cell debris (= 12000 rpm on benchtop centrifuge in cold room)  
+
+*(optional to increase yield – sonicate pellet for 30 s with a 50 % pulse)*
+
+- transfer supernatant to a fresh tube
+- store in 50 mcl aliquots @ - 80 °
+- measure protein concentration (e.g. BCA assay in duplicate)
+
+<br>
+
+**Lysis after trypsinisation**:
+
+- detach cells by trypsinisation
+- wash thrice in 1.5mL ice-cold PBS
+- resuspend pellet in 1.5mL RIPA (with PIC)
+- pass repeatedly (c. × 5) through a 21G (green) needle
+- incubate on ice × 15’ on rocking platform  
+- then proceed as from spin step above   
+
+<br>
+  
+## RNA
+
+### Materials  
+
+Trizol or Qiazol  
+
+<br>
+
+### Method
+
+*For up to 10<sup>7</sup> cells, use 700 mcl QIAzol lysis reagent per reaction. This is supposed to be an appropriate volume for up to 10<sup>7</sup> cells or a dish up to 100 mm diameter. Old TRIzol protocols say 1mL for up to 10<sup>7</sup> cells.* 
+
+- wash cells twice with PBS then detach by trypsinisation
+- take aliquot to count cells if required
+
+- transfer RNase-free tube; pellet at 160 g for 5 mins; completely aspirate spnt (= 1000 rpm on Heraus rotor 7591 on Biofuge Primo)
+
+- flick tube to dislodge pellet
+- add 700 mcl QIAzol lysis reagent
+- homogenise cells:  
+    - if processing < 3 x 10<sup>6</sup> cells, homogenize by vortexing for 1 min 
+    - if processing > 3 x 10<sup>6</sup> cells, homogenize using syringe and needle 
+
+
+- store homogenised cell lysate at – 70C
+
+<br>
+
+*Alternatives:*  
+*- first potential alternative: freeze cell pellet*  
+*- second potential alternative: lyse directly in the flask by adding 700 mcl QIAzol lysis reagent*  
