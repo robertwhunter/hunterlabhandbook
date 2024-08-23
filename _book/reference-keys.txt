@@ -74,3 +74,13 @@ core-regulations
 advice
 antibodies
 data
+writing
+how-to-structure-a-paper-or-thesis
+structure-of-a-scientific-paper
+structure-of-a-phd-thesis
+key-differences
+further-notes-on-sub-sections
+structure-of-the-discussion
+tips-for-writing-the-discussion
+structure-of-an-abstract
+tips-for-writing-an-abstract

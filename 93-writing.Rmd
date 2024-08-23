@@ -1,0 +1,141 @@
+# Writing
+
+```{r setup_writing, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+
+```
+
+
+## How to structure a paper or thesis
+
+### Structure of a scientific paper
+
+A scientific paper typically follows the **IMRaD** format:
+
+1. **Introduction**: briefly introduce the research topic, define the problem, and state the research question or hypothesis; highlight the study's significance.
+
+2. **Methods**: describe the procedures, materials, and techniques used to conduct the research, allowing others to replicate the study.
+
+3. **Results**: present the findings of the study *without interpretation*, using tables, figures, and statistical analyses.
+
+4. **Discussion**: interpret the results, discuss their implications, compare them with previous research, and suggest possible future research directions.
+
+5. **Conclusion**: summarise the main findings and their relevance (sometimes integrated into the Discussion).
+
+<br>
+<br>
+
+### Structure of a PhD thesis
+
+A PhD thesis has a more extensive structure, including elements not typically found in a scientific paper:
+
+1. **Title Page**: includes title, author’s name, institution, degree sought, and date.
+
+2. **Acknowledgements**: a section to thank those who contributed to the research.
+
+3. **Table of Contents**: lists all chapters and sections with page numbers.
+
+4. **Abstract**: a concise summary of the entire thesis, including objectives, methods, results, and conclusions.
+
+5. **Introduction**: similar to the scientific paper but with much more detail, setting up the context, background, and objectives of the research:.
+    - **Literature review**: a comprehensive review of existing research relevant to the thesis topic, establishing the research gap 
+    - **Research quesions, aims, hypotheses**: end the introduction with a very clear articulation of the research question, aims or hypotheses being tested  
+
+6. **Methods**: detailed explanation of the research design, data collection, and analysis methods.
+
+7. **Chapters (Results +/- Discussion)**: each chapter focuses on a different aspect of the research, with results and discussion either combined or separated, depending on the thesis; typically 3 - 5 results chapters.
+
+8. **Conclusion**: a chapter summarising the key findings, implications, and contributions of the research to the field; may also suggest future research directions.
+
+9. **References/bibliography**: comprehensive list of all references cited throughout the thesis.
+
+10. **Appendices**: additional material like raw data, detailed calculations, or supplementary information that supports the research but is not essential to the main text; use sparingly.  
+
+<br>
+<br>
+
+### Key Differences
+
+- **Scope**: a PhD thesis is broader and more detailed, often covering multiple studies or experiments, whereas a scientific paper is more focused on a single study.
+- **Length**: a thesis is significantly longer, typically including more extensive background, literature review, and multiple results/discussion chapters.
+- **Depth**: a thesis requires a more thorough exploration of the topic, including a comprehensive literature review and a deeper methodological explanation.
+- **Audience**: a scientific paper targets a broader audience within the scientific community, while a PhD thesis is primarily evaluated by a specific academic committee.
+
+
+<br>
+<br>
+
+
+## Further notes on sub-sections
+### Structure of the discussion
+
+1. **Restate Key Findings**:
+   - Begin by briefly summarising the most important findings of your study. This helps to remind the reader of what you’ve discovered *without repeating the entire results section*.
+   - Example: "Our study found that X significantly increased Y, which supports the hypothesis that..."
+
+2. **Interpretation of Results**:
+   - Explain what your findings mean in the context of your research question or hypothesis. Discuss whether your results support or contradict existing theories or previous research.
+   - Example: "The increase in Y suggests that X plays a crucial role in Z, aligning with previous studies by Smith et al. (2010)."
+
+3. **Comparison with Previous Research**:
+   - Compare your results with similar studies, highlighting agreements or discrepancies. Discuss why your results might differ from others, considering factors like methodology, sample size, or context.
+   - Example: "Unlike previous research by Jones et al. (2015), our study found no significant relationship between A and B, possibly due to differences in..."
+
+4. **Limitations of the Study**:
+   - Acknowledge the limitations of your study, such as sample size, methodological constraints, or potential biases. Being upfront about limitations strengthens your credibility.
+   - Example: "While our sample size was relatively small, the consistency of the results across multiple tests suggests robustness."
+
+5. **Implications of the Findings**:
+   - Discuss the broader implications of your findings for the field, policy, practice, or future research. Consider the practical applications or theoretical contributions.
+   - Example: "These findings suggest that targeting X in clinical settings could improve patient outcomes, especially in cases of..."
+
+6. **Suggestions for Future Research**:
+   - Based on the limitations and implications, propose directions for future research. Identify unanswered questions or new areas of inquiry that have emerged from your study.
+   - Example: "Further research is needed to explore the long-term effects of X on Y in larger, more diverse populations."
+
+7. **Conclusion**:
+   - End with a concise summary that ties together your interpretation of the findings and their significance. Reinforce the main takeaway for the reader.
+   - Example: "In conclusion, our study provides strong evidence that X influences Y, offering new insights into Z and paving the way for future research."
+
+<br>
+
+#### Tips for writing the discussion
+
+- **Be Clear and Concise**: Avoid unnecessary jargon and make your arguments clear.
+- **Stay Objective**: Interpret your findings objectively, avoiding overstatement or speculation.
+- **Structure Logically**: Ensure that your discussion flows logically, building from your findings to broader implications.
+- **Balance Positives and Negatives**: Highlight both strengths and limitations to provide a balanced view.
+
+This structure ensures that your discussion is comprehensive, insightful, and well-organized, making it easier for readers to understand the significance of your research.
+
+<br>
+<br>
+
+### Structure of an abstract
+
+1. **Introduction (1-2 sentences)**:
+   - Briefly introduce the research problem or question. State the purpose of the study.
+   - Example: "This study investigates the impact of X on Y to address the gap in understanding Z."
+
+2. **Methods (1-2 sentences)**:
+   - Summarise the key methods or approaches used in the study.
+   - Example: "We conducted a randomized controlled trial with N participants, using A and B as the primary measures."
+
+3. **Results (2-3 sentences)**:
+   - Highlight the main findings, including any significant results or key data points.
+   - Example: "The results showed a significant increase in Y following exposure to X, with a p-value of 0.05."
+
+4. **Conclusion (1-2 sentences)**:
+   - Summarise the implications of the findings and their relevance to the field.
+   - Example: "These findings suggest that X is a critical factor in Y, offering new insights for Z."
+
+<br>
+
+#### Tips for writing an abstract
+
+- **Keep it Concise**: Typically, abstracts should be 150-250 words, depending on the journal or guidelines.
+- **Be Specific**: Include key details, but avoid unnecessary jargon or overly technical language.
+- **Cover All Sections**: Ensure the abstract is a complete summary, touching on all key aspects of the study (introduction, methods, results, and conclusion).
+
+This structure ensures your abstract is clear, informative, and effectively summarises your entire paper.
