@@ -1,5 +1,11 @@
 # Western blot
 
+```{r setup_WB, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+
+```
+
 ## Materials
 
 - 7 mm steel beads (Qiagen 69990)  
@@ -14,6 +20,17 @@
 - block buffer = 5% (w/v) milk powder (= 2g in 40 ml)   
 - ECL (34577)  
 - Instant Blue (ab119211)
+
+<br>
+<br>
+
+## Antibodies
+
+```{r antibodies, eval=TRUE, echo=FALSE, warning=FALSE, message=FALSE, show_col_types=FALSE}
+
+read_csv("antibodies.csv") %>% knitr::kable()
+
+```
 
 <br>
 <br>
@@ -75,6 +92,19 @@ viii\) wash with 20 ml aq for 5 mins x2
 <br>
 
 *NB At this point can do Coomassie Blue staining and annotate membrane with xylene-resistant histology pen.  Can dry to pause (see below.)  Need to rehydrate into MeOH before blotting.*  
+
+<br>
+<br>
+
+### Adaptations for Tris-acetate gels:  
+
+- use 4x loading buffer (NP0007)  
+- use HiMark high-MW ladder (10 mcl gives quite faint bands)  
+- run in Tris-acetate running buffer and add 500 mcl anti-oxidant (NP0005) to upper chamber  
+- run at 150V for 60' (expect 40 - 55 mA dropping to 25 - 40 mA)  
+- transfer in NuPage transfer buffer (1x) with 10% MeOH and 0.1% anti-oxidant (i.e. 1 ml in 1000 ml)...  
+- ...having first pre-equilibrated gel in 2x transfer buffer without MeOH for 10 mins  
+- transfer at 20V for 60' (expect 380 mA dropping to 130 mA)  
 
 <br>
 <br>

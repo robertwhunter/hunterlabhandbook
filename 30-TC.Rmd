@@ -17,6 +17,18 @@ library(tidyverse)
 - formaldehyde (28906 or 28908)  
 
 <br>
+<br>
+
+## Useful numbers
+
+```{r TC_numbers, eval=TRUE, echo=FALSE, warning=FALSE, message=FALSE, show_col_types=FALSE}
+
+read_csv("cell_culture_numbers.csv") %>% knitr::kable()
+
+```
+
+<br>
+<br>
 
 ## Yields:  
 
@@ -28,6 +40,8 @@ library(tidyverse)
 Therefore confluent T75 will be ~10<sup>7</sup> mCCD cells.  
 
 7 mcg RNA per 1 million cells.  
+
+For mCCD cells: one confluent well of 6-well plate, lysed in 250 mcl RIPA gives c. 3000 mcg per ml = 750 mcg protein - i.e. plenty!  
 
 <br>
 
@@ -99,6 +113,7 @@ Prefer to purchase RIPA buffer (ab156034) and PICs (Merck cocktail set III).
 
 **Lysis after trypsinisation**:
 
+- BEWARE - the trypsinisation may of course destroy epitopes  
 - detach cells by trypsinisation
 - wash thrice in 1.5mL ice-cold PBS
 - resuspend pellet in 1.5mL RIPA (with PIC)

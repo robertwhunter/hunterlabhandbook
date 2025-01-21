@@ -1,0 +1,8 @@
+﻿role,target,host,conjugate,Ab,WB,kDa,store
+primary,megalin,rabbit,,ab76969,1200,400,-20
+primary,beta-catenin,mouse,,sc-7963,1200,100,4
+primary,beta-actin,rabbit,,13E5 CST4970,1200,41,-20
+primary,AQP2,mouse,,sc-515770,100,30; 40 - 55,4
+secondary,anti-rabbit-IgG,mouse,HRP,sc-2357,10000,,4
+secondary,anti-mouse-IgG,horse,HRP,CST7076,5000,,-20
+secondary,IgG,E coli protein G,HRP,ab7460,1000,,-20
