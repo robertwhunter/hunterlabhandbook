@@ -56,7 +56,7 @@ growth-medium
 thawing
 splitting
 freezing
-rptec-llc-pk1-culture-protocols
+rptec-tert1-llc-pk1-culture-protocols
 materials-rptec-tert1
 methods-rptec-tert1
 growth-medium-1

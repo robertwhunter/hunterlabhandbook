@@ -20,7 +20,7 @@ library(tidyverse)
 - use Polybrene @ 1:1000 (= final 10 mcg per ml)  
 - try MOI 1:1 -- 1:100 (but usually anything \> 1:50 will induce cell death; 1:20 usually optimal for mCCD cells)  
 - 24 hrs after transduction, wash cells twice and discard medium into virkon (as above)  
-- start selection 2 -- 3 days post-transduction  
+- start selection 2 -- 3 days post-transduction (or alternatively FACS-sort to enrich for fluorescent cells)  
 
 - from my kill curves in hPodo AB, appropriate selection would be:  
 
@@ -32,14 +32,14 @@ library(tidyverse)
 
 ## Specific methods
 
-- optimum viral "load" in hPodos as assessed using emGFP = 6.5 × 10^6^ TU per T25 flask at 30% confluence (\~ MOI 50) = \~3.3 ×10^7^ TU if assessing titre by Q-PCR (rather than fluorescence)  
+- optimum viral "load" in hPodos as assessed using emGFP = 6.5 × 10^6^ TU per T25 flask at 30% confluence (\~ MOI 50) = \~3.3 × 10^7^ TU if assessing titre by Q-PCR (rather than fluorescence)  
 
-- volume of virus required to deliver 3.3 ×10^7^ TU =  
+- volume of virus required to deliver 3.3 × 10^7^ TU =  
 
-    - LV-HA-UPRT (8.3 × 10^6 TU/mcl) = 4.0 mcl -- therefore use 5 mcl
-    - LV-Ago2 (3.0 × 10^6 TU/mcl) = 11.0 mcl -- therefore use 10 mcl
-    - LV-emGFP-CD9 (4.8 × 10^6 TU/mcl) = 6.9 mcl -- therefore use 5 mcl  
-    - LV-cppt-Ef1a-puro-mCherry-opre (2.7 × 10^6 TU/mcl)   
+    - LV-HA-UPRT (8.3 × 10^6^ TU/mcl) = 4.0 mcl -- therefore use 5 mcl
+    - LV-Ago2 (3.0 × 10^6^ TU/mcl) = 11.0 mcl -- therefore use 10 mcl
+    - LV-emGFP-CD9 (4.8 × 10^6^ TU/mcl) = 6.9 mcl -- therefore use 5 mcl  
+    - LV-cppt-Ef1a-puro-mCherry-opre (2.7 × 10^6^ TU/mcl)   
 
 -   selection =
 

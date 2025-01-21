@@ -1,4 +1,4 @@
-# rpTEC & LLC-PK1 culture protocols
+# rpTEC-TERT1 & LLC-PK1 culture protocols
 
 ```{r setup_rpTEC, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -92,7 +92,7 @@ Freeze in 10% DMSO / 90% FCS (or 10% DMSO / 90% culture medium).
 
 See [ATCC protocols](https://www.atcc.org/products/cl-101).  
 
-Grow in Medium 199, supplemented with 3% FCS and P/S.  Typically split when 80% confluent at a ratio of 1:3 -- 1:8.  Freeze in 5% DMSO / 95% growth medium.  
+Grow in Medium 199, supplemented with 3% FCS and P/S.  Typically split when 80% confluent at a ratio of 1:3 -- 1:8.  If they become too confluent, then hard to trypsinise.  Freeze in 5% DMSO / 95% growth medium.  
 
 <br>
 <br>
