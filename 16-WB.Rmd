@@ -73,7 +73,7 @@ Heat to 70deg for 15 mins (NB do NOT heat ladder).
 i\) make 1L buffer for two chambers  
 ii\) rinse wells and load as per reference card  
 iii\) 5 mcl PageRuler Plus ladder  
-iv\) run @ 225V for 30 -- 45 mins  
+iv\) run @ 225V for 30 -- 45 mins or 170V for 60 mins  
 
 <br>
 <br>
@@ -86,7 +86,7 @@ iii\) pre-wet PVDF in MeOH for 30 secs then rinse in aq and soak in TB for a few
 iv\) do NOT equilibrate gel in TB  
 v\) pre-wet filter paper  
 vi\) assemble as per quick reference card (remember wet cathode with 10 ml TB first and smooth with roller after each step)  
-vii\) transfer on Mini Blot module @ 20V for 60 mins. 
+vii\) transfer on Mini Blot module @ 20V for 60 mins (for two gels: 350 mA dropping to 250 mA)    
 viii\) wash with 20 ml aq for 5 mins x2  
 
 <br>
@@ -116,7 +116,8 @@ ii\) 1ry Ab overnight @ 4deg
 iii\) wash x 5 mins x 3  
 iv\) 2ry Ab for 60 mins @ RT  
 v\) wash x 10 mins x 3  
-vi\) ECL > LICOR Odyssesy
+vi\) annotate with ECL pen  
+vii\) ECL > LICOR Odyssesy
 
 *NB can preserve 1ry Ab with 0.05% NaN3 (= 250 mcl of 1% into 5 ml).*  
 
