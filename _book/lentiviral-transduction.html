@@ -23,7 +23,7 @@
 <meta name="author" content="Robert W Hunter" />
 
 
-<meta name="date" content="2025-01-21" />
+<meta name="date" content="2025-01-23" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -192,7 +192,7 @@
 <ul>
 <li class="chapter" data-level="13.1" data-path="lentiviral-transduction.html"><a href="lentiviral-transduction.html#safety"><i class="fa fa-check"></i><b>13.1</b> Safety</a></li>
 <li class="chapter" data-level="13.2" data-path="lentiviral-transduction.html"><a href="lentiviral-transduction.html#general-method"><i class="fa fa-check"></i><b>13.2</b> General method</a></li>
-<li class="chapter" data-level="13.3" data-path="lentiviral-transduction.html"><a href="lentiviral-transduction.html#specific-methods"><i class="fa fa-check"></i><b>13.3</b> Specific methods</a></li>
+<li class="chapter" data-level="13.3" data-path="lentiviral-transduction.html"><a href="lentiviral-transduction.html#specific-methods-for-our-cells-and-viruses"><i class="fa fa-check"></i><b>13.3</b> Specific methods for our cells and viruses</a></li>
 </ul></li>
 <li class="part"><span><b>IV In vivo</b></span></li>
 <li class="chapter" data-level="14" data-path="isolation-of-nephron-segments.html"><a href="isolation-of-nephron-segments.html"><i class="fa fa-check"></i><b>14</b> Isolation of nephron segments</a>
@@ -249,6 +249,10 @@
 <h1><span class="header-section-number">Protocol 13</span> Lentiviral transduction<a href="lentiviral-transduction.html#lentiviral-transduction" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <div id="safety" class="section level2 hasAnchor" number="13.1">
 <h2><span class="header-section-number">13.1</span> Safety<a href="lentiviral-transduction.html#safety" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+
+<div class="note">
+<p>We use 3rd- generation self-inactivating vector systems. The shuttle vectors have highly modified 5’ and 3’LTR to prevent production of replication competent virus (RCL). Modified LTR’s cannot transcriptionally activate adjacent genes after DNA insertion, and are replication incompetent. All of the packaging plasmids have minimal DNA identity to prevent DNA recombination and production of RCL and importantly reactivation of provirus inserted into the genome. We do not use any genetic inserts that are known or predicted to promote oncogenesis.</p>
+</div>
 <ul>
 <li>decontaminate all virus-containing medium / plasticware with 1% virkon for 24 hrs and then autoclave (1 hr is probably sufficient but RA says 24 hrs)<br />
 </li>
@@ -259,39 +263,46 @@
 </div>
 <div id="general-method" class="section level2 hasAnchor" number="13.2">
 <h2><span class="header-section-number">13.2</span> General method<a href="lentiviral-transduction.html#general-method" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>See also <a href="https://www.addgene.org/protocols/generating-stable-cell-lines/">addgene protocol</a> for “reverse transduction”.</p>
 <ul>
-<li><p>transduce at subconfluency (e.g. 30 – 70 %)<br />
-</p></li>
-<li><p>use Polybrene @ 1:1000 (= final 10 mcg per ml)<br />
-</p></li>
-<li><p>try MOI 1:1 – 1:100 (but usually anything &gt; 1:50 will induce cell death; 1:20 usually optimal for mCCD cells)<br />
-</p></li>
-<li><p>24 hrs after transduction, wash cells twice and discard medium into virkon (as above)<br />
-</p></li>
-<li><p>start selection 2 – 3 days post-transduction (or alternatively FACS-sort to enrich for fluorescent cells)</p></li>
-<li><p>from my kill curves in hPodo AB, appropriate selection would be:</p>
-<ul>
-<li>blasticidin (Merck US1203351) @ 45 mcg/ml<br />
+<li>transduce at subconfluency (e.g. 30 – 70 %)<br />
 </li>
-<li>puromycin (Merck US1540411) @ 1.5 mcg/ml</li>
-</ul></li>
+<li>can omit pen/strep (can apparently inhibit transduction)<br />
+</li>
+<li>use Polybrene @ 1:1000 (= final 10 mcg per ml)<br />
+</li>
+<li>try MOI 1:1 – 1:100 (but usually anything &gt; 1:50 will induce cell death)<br />
+</li>
+<li>24 hrs after transduction, wash cells twice and discard medium into virkon (as above)<br />
+</li>
+<li>assess for fluorescence 48 – 72 days post-transduction<br />
+</li>
+<li>start selection 48 – 72 days post-transduction (or alternatively FACS-sort to enrich for fluorescent cells)</li>
 </ul>
 <p><br>
 <br></p>
 </div>
-<div id="specific-methods" class="section level2 hasAnchor" number="13.3">
-<h2><span class="header-section-number">13.3</span> Specific methods<a href="lentiviral-transduction.html#specific-methods" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="specific-methods-for-our-cells-and-viruses" class="section level2 hasAnchor" number="13.3">
+<h2><span class="header-section-number">13.3</span> Specific methods for our cells and viruses<a href="lentiviral-transduction.html#specific-methods-for-our-cells-and-viruses" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <ul>
-<li><p>optimum viral “load” in hPodos as assessed using emGFP = 6.5 × 10<sup>6</sup> TU per T25 flask at 30% confluence (~ MOI 50) = ~3.3 × 10<sup>7</sup> TU if assessing titre by Q-PCR (rather than fluorescence)</p></li>
-<li><p>volume of virus required to deliver 3.3 × 10<sup>7</sup> TU =</p>
+<li><p>optimum viral “load” in hPodos as assessed using emGFP = 6.5 × 10<sup>6</sup> TU per T25 flask at 30% confluence (~ MOI 50) = ~3.3 × 10<sup>7</sup> TU if assessing titre by qPCR (rather than fluorescence)</p></li>
+<li><p>optimal MOI for LV-cppt-ET1a-puro-mCherry-opre in mCCD cells = 20 (where titre assessed by qPCR)</p></li>
+</ul>
+<p><br></p>
 <ul>
-<li>LV-HA-UPRT (8.3 × 10<sup>6</sup> TU/mcl) = 4.0 mcl – therefore use 5 mcl</li>
-<li>LV-Ago2 (3.0 × 10<sup>6</sup> TU/mcl) = 11.0 mcl – therefore use 10 mcl</li>
-<li>LV-emGFP-CD9 (4.8 × 10<sup>6</sup> TU/mcl) = 6.9 mcl – therefore use 5 mcl<br />
+<li><p>viral prep titres =</p>
+<ul>
+<li>LV-HA-UPRT (8.3 × 10<sup>6</sup> TU/mcl) – therefore use 5 mcl to deliver approx 3.3 × 10<sup>7</sup> TU<br />
 </li>
-<li>LV-cppt-Ef1a-puro-mCherry-opre (2.7 × 10<sup>6</sup> TU/mcl)</li>
+<li>LV-Ago2 (3.0 × 10<sup>6</sup> TU/mcl) – therefore use 10 mcl to deliver approx 3.3 × 10<sup>7</sup> TU</li>
+<li>LV-emGFP-CD9 (4.8 × 10<sup>6</sup> TU/mcl) – therefore use 7.5 mcl to deliver approx 3.3 × 10<sup>7</sup> TU<br />
+</li>
+<li>LV-cppt-Ef1a-puro-mCherry-opre (2.7 × 10<sup>6</sup> TU/mcl) – see <a href="https://www.addgene.org/89359/">map</a></li>
 </ul></li>
-<li><p>selection =</p>
+</ul>
+<p><br></p>
+<ul>
+<li><p>selection:</p>
 <ul>
 <li>LV-HA-UPRT: blasticidin<br />
 </li>
@@ -301,6 +312,15 @@
 </li>
 <li>LV-cppt-Ef1a-puro-mCherry-opre: puromicin</li>
 <li>…and remember CONTROL flasks</li>
+</ul></li>
+</ul>
+<p><br></p>
+<ul>
+<li><p>from our kill curves, appropriate selection would be:</p>
+<ul>
+<li>blasticidin (Merck US1203351) @ 45 mcg/ml in hPodo AB</li>
+<li>puromycin (Merck US1540411) @ 1.5 mcg/ml in hPodo AB</li>
+<li>puromycin (Merck US1540411) @ 1.5 mcg/ml in mCCD</li>
 </ul></li>
 </ul>
 

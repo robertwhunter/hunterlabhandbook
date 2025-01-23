@@ -8,6 +8,11 @@ library(tidyverse)
 
 ## Safety
 
+```{block2, type='note'}
+We use 3rd- generation self-inactivating vector systems.  The shuttle vectors have highly modified 5’ and 3’LTR to prevent production of replication competent virus (RCL).  Modified LTR’s cannot transcriptionally activate adjacent genes after DNA insertion, and are replication incompetent.  All of the packaging plasmids have minimal DNA identity to prevent DNA recombination and production of RCL and importantly reactivation of provirus inserted into the genome.  We do not use any genetic inserts that are known or predicted to promote oncogenesis.  
+
+```
+
 - decontaminate all virus-containing medium / plasticware with 1% virkon for 24 hrs and then autoclave (1 hr is probably sufficient but RA says 24 hrs)  
 - culture cells in virus suite until second wash after transduction   
 
@@ -16,32 +21,37 @@ library(tidyverse)
 
 ## General method
 
+See also [addgene protocol](https://www.addgene.org/protocols/generating-stable-cell-lines/) for "reverse transduction".  
+
 - transduce at subconfluency (e.g. 30 -- 70 %)  
+- can omit pen/strep (can apparently inhibit transduction)   
 - use Polybrene @ 1:1000 (= final 10 mcg per ml)  
-- try MOI 1:1 -- 1:100 (but usually anything \> 1:50 will induce cell death; 1:20 usually optimal for mCCD cells)  
+- try MOI 1:1 -- 1:100 (but usually anything \> 1:50 will induce cell death)  
 - 24 hrs after transduction, wash cells twice and discard medium into virkon (as above)  
-- start selection 2 -- 3 days post-transduction (or alternatively FACS-sort to enrich for fluorescent cells)  
-
-- from my kill curves in hPodo AB, appropriate selection would be:  
-
-    - blasticidin (Merck US1203351) @ 45 mcg/ml  
-    - puromycin (Merck US1540411) @ 1.5 mcg/ml  
+- assess for fluorescence 48 -- 72 days post-transduction  
+- start selection 48 -- 72 days post-transduction (or alternatively FACS-sort to enrich for fluorescent cells)  
 
 <br>
 <br>
 
-## Specific methods
+## Specific methods for our cells and viruses  
 
-- optimum viral "load" in hPodos as assessed using emGFP = 6.5 × 10^6^ TU per T25 flask at 30% confluence (\~ MOI 50) = \~3.3 × 10^7^ TU if assessing titre by Q-PCR (rather than fluorescence)  
+- optimum viral "load" in hPodos as assessed using emGFP = 6.5 × 10^6^ TU per T25 flask at 30% confluence (\~ MOI 50) = \~3.3 × 10^7^ TU if assessing titre by qPCR (rather than fluorescence)  
 
-- volume of virus required to deliver 3.3 × 10^7^ TU =  
+- optimal MOI for LV-cppt-ET1a-puro-mCherry-opre in mCCD cells = 20 (where titre assessed by qPCR)
 
-    - LV-HA-UPRT (8.3 × 10^6^ TU/mcl) = 4.0 mcl -- therefore use 5 mcl
-    - LV-Ago2 (3.0 × 10^6^ TU/mcl) = 11.0 mcl -- therefore use 10 mcl
-    - LV-emGFP-CD9 (4.8 × 10^6^ TU/mcl) = 6.9 mcl -- therefore use 5 mcl  
-    - LV-cppt-Ef1a-puro-mCherry-opre (2.7 × 10^6^ TU/mcl)   
+<br>
 
--   selection =
+- viral prep titres =  
+
+    - LV-HA-UPRT (8.3 × 10^6^ TU/mcl) -- therefore use 5 mcl to deliver approx 3.3 × 10^7^ TU  
+    - LV-Ago2 (3.0 × 10^6^ TU/mcl) -- therefore use 10 mcl to deliver approx 3.3 × 10^7^ TU
+    - LV-emGFP-CD9 (4.8 × 10^6^ TU/mcl) -- therefore use 7.5 mcl to deliver approx 3.3 × 10^7^ TU  
+    - LV-cppt-Ef1a-puro-mCherry-opre (2.7 × 10^6^ TU/mcl) -- see [map](https://www.addgene.org/89359/)  
+
+<br>
+
+- selection:  
 
     - LV-HA-UPRT: blasticidin  
     - LV-Ago2: puromicin  
@@ -49,3 +59,11 @@ library(tidyverse)
     - LV-cppt-Ef1a-puro-mCherry-opre: puromicin
     -   ...and remember CONTROL flasks  
 
+<br>
+
+- from our kill curves, appropriate selection would be:
+
+    - blasticidin (Merck US1203351) @ 45 mcg/ml in hPodo AB 
+    - puromycin (Merck US1540411) @ 1.5 mcg/ml in hPodo AB 
+    - puromycin (Merck US1540411) @ 1.5 mcg/ml in mCCD   
+    
